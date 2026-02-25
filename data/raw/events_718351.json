@@ -1,0 +1,256 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "718351"
+  },
+  "errors": [],
+  "results": 11,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 78,
+        "name": "Bordeaux",
+        "logo": "https://media.api-sports.io/football/teams/78.png"
+      },
+      "player": {
+        "id": 1276,
+        "name": "Samuel Kalu"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 78,
+        "name": "Bordeaux",
+        "logo": "https://media.api-sports.io/football/teams/78.png"
+      },
+      "player": {
+        "id": 1265,
+        "name": "Y. Adli"
+      },
+      "assist": {
+        "id": 1262,
+        "name": "Otávio"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 78,
+        "name": "Bordeaux",
+        "logo": "https://media.api-sports.io/football/teams/78.png"
+      },
+      "player": {
+        "id": 1273,
+        "name": "J. Briand"
+      },
+      "assist": {
+        "id": 190686,
+        "name": "S. Mara"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 78,
+        "name": "Bordeaux",
+        "logo": "https://media.api-sports.io/football/teams/78.png"
+      },
+      "player": {
+        "id": 941,
+        "name": "L. Benito"
+      },
+      "assist": {
+        "id": 24602,
+        "name": "A. Medioub"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 99,
+        "name": "Clermont Foot",
+        "logo": "https://media.api-sports.io/football/teams/99.png"
+      },
+      "player": {
+        "id": 20773,
+        "name": "J. Berthomier"
+      },
+      "assist": {
+        "id": 20777,
+        "name": "J. Iglesias"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 78,
+        "name": "Bordeaux",
+        "logo": "https://media.api-sports.io/football/teams/78.png"
+      },
+      "player": {
+        "id": 1276,
+        "name": "S. Kalu"
+      },
+      "assist": {
+        "id": 129696,
+        "name": "A. Traore"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 99,
+        "name": "Clermont Foot",
+        "logo": "https://media.api-sports.io/football/teams/99.png"
+      },
+      "player": {
+        "id": 21618,
+        "name": "J. Allevinah"
+      },
+      "assist": {
+        "id": 39095,
+        "name": "E. Rashani"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 78,
+        "name": "Bordeaux",
+        "logo": "https://media.api-sports.io/football/teams/78.png"
+      },
+      "player": {
+        "id": 1266,
+        "name": "T. Bašić"
+      },
+      "assist": {
+        "id": 162740,
+        "name": "M. Zerkane"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 99,
+        "name": "Clermont Foot",
+        "logo": "https://media.api-sports.io/football/teams/99.png"
+      },
+      "player": {
+        "id": 24288,
+        "name": "M. Bayo"
+      },
+      "assist": {
+        "id": 39095,
+        "name": "E. Rashani"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 99,
+        "name": "Clermont Foot",
+        "logo": "https://media.api-sports.io/football/teams/99.png"
+      },
+      "player": {
+        "id": 24288,
+        "name": "M. Bayo"
+      },
+      "assist": {
+        "id": 20734,
+        "name": "J. Tell"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 3
+      },
+      "team": {
+        "id": 99,
+        "name": "Clermont Foot",
+        "logo": "https://media.api-sports.io/football/teams/99.png"
+      },
+      "player": {
+        "id": 3384,
+        "name": "J. Dossou"
+      },
+      "assist": {
+        "id": 20734,
+        "name": "J. Tell"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    }
+  ]
+}

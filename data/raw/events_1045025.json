@@ -1,0 +1,322 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "1045025"
+  },
+  "errors": [],
+  "results": 14,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
+        "id": 112,
+        "name": "Metz",
+        "logo": "https://media.api-sports.io/football/teams/112.png"
+      },
+      "player": {
+        "id": 22164,
+        "name": "Christophe Herelle"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 85,
+        "name": "Paris Saint Germain",
+        "logo": "https://media.api-sports.io/football/teams/85.png"
+      },
+      "player": {
+        "id": 128384,
+        "name": "Vitinha"
+      },
+      "assist": {
+        "id": 927,
+        "name": "Lee Kang-In"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 85,
+        "name": "Paris Saint Germain",
+        "logo": "https://media.api-sports.io/football/teams/85.png"
+      },
+      "player": {
+        "id": 278,
+        "name": "K. Mbappé"
+      },
+      "assist": {
+        "id": 128384,
+        "name": "Vitinha"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 112,
+        "name": "Metz",
+        "logo": "https://media.api-sports.io/football/teams/112.png"
+      },
+      "player": {
+        "id": 20531,
+        "name": "H. Maïga"
+      },
+      "assist": {
+        "id": 374058,
+        "name": "L. Camara"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 85,
+        "name": "Paris Saint Germain",
+        "logo": "https://media.api-sports.io/football/teams/85.png"
+      },
+      "player": {
+        "id": 198,
+        "name": "M. Škriniar"
+      },
+      "assist": {
+        "id": 33,
+        "name": "L. Hernández"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 85,
+        "name": "Paris Saint Germain",
+        "logo": "https://media.api-sports.io/football/teams/85.png"
+      },
+      "player": {
+        "id": 21104,
+        "name": "R. Kolo Muani"
+      },
+      "assist": {
+        "id": 746,
+        "name": "Marco Asensio"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 112,
+        "name": "Metz",
+        "logo": "https://media.api-sports.io/football/teams/112.png"
+      },
+      "player": {
+        "id": 20534,
+        "name": "C. Sabaly"
+      },
+      "assist": {
+        "id": 408870,
+        "name": "I. Sané"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 112,
+        "name": "Metz",
+        "logo": "https://media.api-sports.io/football/teams/112.png"
+      },
+      "player": {
+        "id": 19323,
+        "name": "J. Asoro"
+      },
+      "assist": {
+        "id": 190985,
+        "name": "S. Elisor"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 112,
+        "name": "Metz",
+        "logo": "https://media.api-sports.io/football/teams/112.png"
+      },
+      "player": {
+        "id": 20525,
+        "name": "M. Udol"
+      },
+      "assist": {
+        "id": 374058,
+        "name": "L. Camara"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 85,
+        "name": "Paris Saint Germain",
+        "logo": "https://media.api-sports.io/football/teams/85.png"
+      },
+      "player": {
+        "id": 278,
+        "name": "K. Mbappé"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 2
+      },
+      "team": {
+        "id": 85,
+        "name": "Paris Saint Germain",
+        "logo": "https://media.api-sports.io/football/teams/85.png"
+      },
+      "player": {
+        "id": 51494,
+        "name": "M. Ugarte"
+      },
+      "assist": {
+        "id": 386287,
+        "name": "E. Mbappé"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 2
+      },
+      "team": {
+        "id": 85,
+        "name": "Paris Saint Germain",
+        "logo": "https://media.api-sports.io/football/teams/85.png"
+      },
+      "player": {
+        "id": 927,
+        "name": "Lee Kang-In"
+      },
+      "assist": {
+        "id": 41585,
+        "name": "Gonçalo Ramos"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 1
+      },
+      "team": {
+        "id": 85,
+        "name": "Paris Saint Germain",
+        "logo": "https://media.api-sports.io/football/teams/85.png"
+      },
+      "player": {
+        "id": 161904,
+        "name": "B. Barcola"
+      },
+      "assist": {
+        "id": 930,
+        "name": "Carlos Soler"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 112,
+        "name": "Metz",
+        "logo": "https://media.api-sports.io/football/teams/112.png"
+      },
+      "player": {
+        "id": 338367,
+        "name": "D. Jean-Jacques"
+      },
+      "assist": {
+        "id": 20530,
+        "name": "A. Jallow"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    }
+  ]
+}

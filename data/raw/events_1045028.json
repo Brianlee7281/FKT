@@ -1,0 +1,322 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "1045028"
+  },
+  "errors": [],
+  "results": 14,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 83,
+        "name": "Nantes",
+        "logo": "https://media.api-sports.io/football/teams/83.png"
+      },
+      "player": {
+        "id": 20654,
+        "name": "Fabien Centonze"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 83,
+        "name": "Nantes",
+        "logo": "https://media.api-sports.io/football/teams/83.png"
+      },
+      "player": {
+        "id": 20655,
+        "name": "Jean-Kevin Duverne"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 83,
+        "name": "Nantes",
+        "logo": "https://media.api-sports.io/football/teams/83.png"
+      },
+      "player": {
+        "id": 20654,
+        "name": "F. Centonze"
+      },
+      "assist": {
+        "id": 21498,
+        "name": "M. Coco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 83,
+        "name": "Nantes",
+        "logo": "https://media.api-sports.io/football/teams/83.png"
+      },
+      "player": {
+        "id": 161622,
+        "name": "M. Abline"
+      },
+      "assist": {
+        "id": 2668,
+        "name": "Mostafa Mohamed"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 80,
+        "name": "Lyon",
+        "logo": "https://media.api-sports.io/football/teams/80.png"
+      },
+      "player": {
+        "id": 1467,
+        "name": "A. Lacazette"
+      },
+      "assist": {
+        "id": 156477,
+        "name": "R. Cherki"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 83,
+        "name": "Nantes",
+        "logo": "https://media.api-sports.io/football/teams/83.png"
+      },
+      "player": {
+        "id": 93671,
+        "name": "Pedro Chirivella"
+      },
+      "assist": {
+        "id": 179,
+        "name": "M. Sissoko"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 83,
+        "name": "Nantes",
+        "logo": "https://media.api-sports.io/football/teams/83.png"
+      },
+      "player": {
+        "id": 20655,
+        "name": "J. Duverne"
+      },
+      "assist": {
+        "id": 84055,
+        "name": "K. Bamba"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 80,
+        "name": "Lyon",
+        "logo": "https://media.api-sports.io/football/teams/80.png"
+      },
+      "player": {
+        "id": 350856,
+        "name": "E. Nuamah"
+      },
+      "assist": {
+        "id": 3084,
+        "name": "T. Kadewere"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 80,
+        "name": "Lyon",
+        "logo": "https://media.api-sports.io/football/teams/80.png"
+      },
+      "player": {
+        "id": 287,
+        "name": "Dejan Lovren"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 80,
+        "name": "Lyon",
+        "logo": "https://media.api-sports.io/football/teams/80.png"
+      },
+      "player": {
+        "id": 287,
+        "name": "Dejan Lovren"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Var",
+      "detail": "Card upgrade",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 80,
+        "name": "Lyon",
+        "logo": "https://media.api-sports.io/football/teams/80.png"
+      },
+      "player": {
+        "id": 1467,
+        "name": "A. Lacazette"
+      },
+      "assist": {
+        "id": 1456,
+        "name": "A. Maitland-Niles"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 80,
+        "name": "Lyon",
+        "logo": "https://media.api-sports.io/football/teams/80.png"
+      },
+      "player": {
+        "id": 156477,
+        "name": "R. Cherki"
+      },
+      "assist": {
+        "id": 334914,
+        "name": "S. Kumbedi"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 7
+      },
+      "team": {
+        "id": 80,
+        "name": "Lyon",
+        "logo": "https://media.api-sports.io/football/teams/80.png"
+      },
+      "player": {
+        "id": 529,
+        "name": "Nicolás Tagliafico"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Time wasting"
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 4
+      },
+      "team": {
+        "id": 83,
+        "name": "Nantes",
+        "logo": "https://media.api-sports.io/football/teams/83.png"
+      },
+      "player": {
+        "id": 10036,
+        "name": "Douglas Augusto"
+      },
+      "assist": {
+        "id": 21088,
+        "name": "N. Pallois"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    }
+  ]
+}

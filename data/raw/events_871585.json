@@ -1,0 +1,498 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "871585"
+  },
+  "errors": [],
+  "results": 22,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": -5,
+        "extra": null
+      },
+      "team": {
+        "id": 83,
+        "name": "Nantes",
+        "logo": "https://media.api-sports.io/football/teams/83.png"
+      },
+      "player": {
+        "id": 84055,
+        "name": "Abdoul Kader Bamba"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "comments": "Argument"
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 83,
+        "name": "Nantes",
+        "logo": "https://media.api-sports.io/football/teams/83.png"
+      },
+      "player": {
+        "id": 21497,
+        "name": "Ludovic Blas"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Var",
+      "detail": "Penalty cancelled",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": 2
+      },
+      "team": {
+        "id": 84,
+        "name": "Nice",
+        "logo": "https://media.api-sports.io/football/teams/84.png"
+      },
+      "player": {
+        "id": 945,
+        "name": "J. Lotomba"
+      },
+      "assist": {
+        "id": 3165,
+        "name": "Y. Atal"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 83,
+        "name": "Nantes",
+        "logo": "https://media.api-sports.io/football/teams/83.png"
+      },
+      "player": {
+        "id": 1407,
+        "name": "D. Appiah"
+      },
+      "assist": {
+        "id": 20654,
+        "name": "F. Centonze"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 83,
+        "name": "Nantes",
+        "logo": "https://media.api-sports.io/football/teams/83.png"
+      },
+      "player": {
+        "id": 22177,
+        "name": "I. Ganago"
+      },
+      "assist": {
+        "id": 2781,
+        "name": "M. Simon"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 84,
+        "name": "Nice",
+        "logo": "https://media.api-sports.io/football/teams/84.png"
+      },
+      "player": {
+        "id": 138,
+        "name": "Jean-Clair Todibo"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 84,
+        "name": "Nice",
+        "logo": "https://media.api-sports.io/football/teams/84.png"
+      },
+      "player": {
+        "id": 180510,
+        "name": "M. Viti"
+      },
+      "assist": {
+        "id": 4399,
+        "name": "H. Boudaoui"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 84,
+        "name": "Nice",
+        "logo": "https://media.api-sports.io/football/teams/84.png"
+      },
+      "player": {
+        "id": 2287,
+        "name": "R. Barkley"
+      },
+      "assist": {
+        "id": 19250,
+        "name": "B. Brahimi"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 84,
+        "name": "Nice",
+        "logo": "https://media.api-sports.io/football/teams/84.png"
+      },
+      "player": {
+        "id": 116,
+        "name": "K. Thuram"
+      },
+      "assist": {
+        "id": 1459,
+        "name": "A. Ramsey"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 84,
+        "name": "Nice",
+        "logo": "https://media.api-sports.io/football/teams/84.png"
+      },
+      "player": {
+        "id": 19015,
+        "name": "Joe Bryan"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 84,
+        "name": "Nice",
+        "logo": "https://media.api-sports.io/football/teams/84.png"
+      },
+      "player": {
+        "id": 19015,
+        "name": "J. Bryan"
+      },
+      "assist": {
+        "id": 162465,
+        "name": "M. Bard"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 83,
+        "name": "Nantes",
+        "logo": "https://media.api-sports.io/football/teams/83.png"
+      },
+      "player": {
+        "id": 22177,
+        "name": "I. Ganago"
+      },
+      "assist": {
+        "id": 20545,
+        "name": "J. Castelletto"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 83,
+        "name": "Nantes",
+        "logo": "https://media.api-sports.io/football/teams/83.png"
+      },
+      "player": {
+        "id": 2781,
+        "name": "M. Simon"
+      },
+      "assist": {
+        "id": 2668,
+        "name": "Mostafa Mohamed"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 84,
+        "name": "Nice",
+        "logo": "https://media.api-sports.io/football/teams/84.png"
+      },
+      "player": {
+        "id": 162465,
+        "name": "Melvin Bard"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 83,
+        "name": "Nantes",
+        "logo": "https://media.api-sports.io/football/teams/83.png"
+      },
+      "player": {
+        "id": 179,
+        "name": "Moussa Sissoko"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 83,
+        "name": "Nantes",
+        "logo": "https://media.api-sports.io/football/teams/83.png"
+      },
+      "player": {
+        "id": 21497,
+        "name": "L. Blas"
+      },
+      "assist": {
+        "id": 21498,
+        "name": "M. Coco"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 83,
+        "name": "Nantes",
+        "logo": "https://media.api-sports.io/football/teams/83.png"
+      },
+      "player": {
+        "id": 179,
+        "name": "M. Sissoko"
+      },
+      "assist": {
+        "id": 560,
+        "name": "S. Corchia"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 10
+      },
+      "team": {
+        "id": 83,
+        "name": "Nantes",
+        "logo": "https://media.api-sports.io/football/teams/83.png"
+      },
+      "player": {
+        "id": 30393,
+        "name": "Alban Lafont"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Argument"
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 9
+      },
+      "team": {
+        "id": 83,
+        "name": "Nantes",
+        "logo": "https://media.api-sports.io/football/teams/83.png"
+      },
+      "player": {
+        "id": 21101,
+        "name": "Samuel Moutoussamy"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Argument"
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 4
+      },
+      "team": {
+        "id": 83,
+        "name": "Nantes",
+        "logo": "https://media.api-sports.io/football/teams/83.png"
+      },
+      "player": {
+        "id": 30393,
+        "name": "Alban Lafont"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Argument"
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 10
+      },
+      "team": {
+        "id": 83,
+        "name": "Nantes",
+        "logo": "https://media.api-sports.io/football/teams/83.png"
+      },
+      "player": {
+        "id": 30393,
+        "name": "Alban Lafont"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "comments": "Argument"
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 7
+      },
+      "team": {
+        "id": 84,
+        "name": "Nice",
+        "logo": "https://media.api-sports.io/football/teams/84.png"
+      },
+      "player": {
+        "id": 3246,
+        "name": "N. Pépé"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Goal",
+      "detail": "Penalty",
+      "comments": null
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "587433"
+  },
+  "errors": [],
+  "results": 18,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 26255,
+        "name": "L. Höler"
+      },
+      "assist": {
+        "id": 21153,
+        "name": "B. Santamaría"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 21153,
+        "name": "Baptiste Santamaria"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 26252,
+        "name": "Roland Sallai"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Var",
+      "detail": "Goal cancelled",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 174,
+        "name": "FC Schalke 04",
+        "logo": "https://media.api-sports.io/football/teams/174.png"
+      },
+      "player": {
+        "id": 551,
+        "name": "Klaas-Jan Huntelaar"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 22,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 26252,
+        "name": "R. Sallai"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Goal",
+      "detail": "Penalty",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 26237,
+        "name": "Dominique Heintz"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Time wasting"
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 26236,
+        "name": "C. Günter"
+      },
+      "assist": {
+        "id": 26252,
+        "name": "R. Sallai"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 174,
+        "name": "FC Schalke 04",
+        "logo": "https://media.api-sports.io/football/teams/174.png"
+      },
+      "player": {
+        "id": 418,
+        "name": "S. Serdar"
+      },
+      "assist": {
+        "id": 1448,
+        "name": "S. Mustafi"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 174,
+        "name": "FC Schalke 04",
+        "logo": "https://media.api-sports.io/football/teams/174.png"
+      },
+      "player": {
+        "id": 203162,
+        "name": "C. Bozdogan"
+      },
+      "assist": {
+        "id": 426,
+        "name": "M. Uth"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 21153,
+        "name": "B. Santamaría"
+      },
+      "assist": {
+        "id": 178093,
+        "name": "Y. Keitel"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 174,
+        "name": "FC Schalke 04",
+        "logo": "https://media.api-sports.io/football/teams/174.png"
+      },
+      "player": {
+        "id": 90977,
+        "name": "T. Becker"
+      },
+      "assist": {
+        "id": 406,
+        "name": "S. Sané"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 26236,
+        "name": "C. Günter"
+      },
+      "assist": {
+        "id": 26252,
+        "name": "R. Sallai"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 26252,
+        "name": "R. Sallai"
+      },
+      "assist": {
+        "id": 2913,
+        "name": "Kwon Chang-Hoon"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 46930,
+        "name": "E. Demirović"
+      },
+      "assist": {
+        "id": 26258,
+        "name": "N. Petersen"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 26255,
+        "name": "L. Höler"
+      },
+      "assist": {
+        "id": 512,
+        "name": "Jeong Woo-Yeong"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 25303,
+        "name": "J. Schmid"
+      },
+      "assist": {
+        "id": 26239,
+        "name": "L. Kübler"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 174,
+        "name": "FC Schalke 04",
+        "logo": "https://media.api-sports.io/football/teams/174.png"
+      },
+      "player": {
+        "id": 412,
+        "name": "A. Harit"
+      },
+      "assist": {
+        "id": 203014,
+        "name": "M. Hoppe"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 174,
+        "name": "FC Schalke 04",
+        "logo": "https://media.api-sports.io/football/teams/174.png"
+      },
+      "player": {
+        "id": 551,
+        "name": "K. Huntelaar"
+      },
+      "assist": {
+        "id": 1830,
+        "name": "Gonçalo Paciência"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    }
+  ]
+}

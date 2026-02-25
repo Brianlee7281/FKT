@@ -1,0 +1,520 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "1224015"
+  },
+  "errors": [],
+  "results": 23,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 186,
+        "name": "FC St. Pauli",
+        "logo": "https://media.api-sports.io/football/teams/186.png"
+      },
+      "player": {
+        "id": 323974,
+        "name": "E. Saad"
+      },
+      "assist": {
+        "id": 25326,
+        "name": "J. Eggestein"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 2915,
+        "name": "Matthias Ginter"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 2915,
+        "name": "Matthias Ginter"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Var",
+      "detail": "Penalty confirmed",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 26248,
+        "name": "Vincenzo Grifo"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Goal",
+      "detail": "Missed Penalty",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 26239,
+        "name": "Lukas Kübler"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 186,
+        "name": "FC St. Pauli",
+        "logo": "https://media.api-sports.io/football/teams/186.png"
+      },
+      "player": {
+        "id": 17756,
+        "name": "O. Afolayan"
+      },
+      "assist": {
+        "id": 323974,
+        "name": "E. Saad"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 202526,
+        "name": "E. Dinkçi"
+      },
+      "assist": {
+        "id": 202844,
+        "name": "N. Weißhaupt"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 186,
+        "name": "FC St. Pauli",
+        "logo": "https://media.api-sports.io/football/teams/186.png"
+      },
+      "player": {
+        "id": 178146,
+        "name": "C. Boukhalfa"
+      },
+      "assist": {
+        "id": 6904,
+        "name": "C. Metcalfe"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 186,
+        "name": "FC St. Pauli",
+        "logo": "https://media.api-sports.io/football/teams/186.png"
+      },
+      "player": {
+        "id": 25326,
+        "name": "Johannes Eggestein"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 186,
+        "name": "FC St. Pauli",
+        "logo": "https://media.api-sports.io/football/teams/186.png"
+      },
+      "player": {
+        "id": 27157,
+        "name": "Manolis Saliakas"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 26239,
+        "name": "L. Kübler"
+      },
+      "assist": {
+        "id": 25383,
+        "name": "F. Muslija"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 26240,
+        "name": "Philipp Lienhart"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Var",
+      "detail": "Goal cancelled",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 163022,
+        "name": "P. Osterhage"
+      },
+      "assist": {
+        "id": 26255,
+        "name": "L. Höler"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 186,
+        "name": "FC St. Pauli",
+        "logo": "https://media.api-sports.io/football/teams/186.png"
+      },
+      "player": {
+        "id": 323974,
+        "name": "E. Saad"
+      },
+      "assist": {
+        "id": 2749,
+        "name": "J. Irvine"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 125173,
+        "name": "J. Adamu"
+      },
+      "assist": {
+        "id": 25297,
+        "name": "M. Gregoritsch"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 186,
+        "name": "FC St. Pauli",
+        "logo": "https://media.api-sports.io/football/teams/186.png"
+      },
+      "player": {
+        "id": 25326,
+        "name": "J. Eggestein"
+      },
+      "assist": {
+        "id": 107087,
+        "name": "S. Banks"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 186,
+        "name": "FC St. Pauli",
+        "logo": "https://media.api-sports.io/football/teams/186.png"
+      },
+      "player": {
+        "id": 27157,
+        "name": "M. Saliakas"
+      },
+      "assist": {
+        "id": 40274,
+        "name": "A. Dźwigała"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 2917,
+        "name": "M. Eggestein"
+      },
+      "assist": {
+        "id": 26250,
+        "name": "N. Höfler"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 186,
+        "name": "FC St. Pauli",
+        "logo": "https://media.api-sports.io/football/teams/186.png"
+      },
+      "player": {
+        "id": 323974,
+        "name": "E. Saad"
+      },
+      "assist": {
+        "id": 15972,
+        "name": "A. Albers"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 2598,
+        "name": "Ritsu Doan"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Var",
+      "detail": "Goal cancelled",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 4
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 26250,
+        "name": "Nicolas Höfler"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Argument"
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 5
+      },
+      "team": {
+        "id": 186,
+        "name": "FC St. Pauli",
+        "logo": "https://media.api-sports.io/football/teams/186.png"
+      },
+      "player": {
+        "id": 107087,
+        "name": "Scott Banks"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 186,
+        "name": "FC St. Pauli",
+        "logo": "https://media.api-sports.io/football/teams/186.png"
+      },
+      "player": {
+        "id": 17756,
+        "name": "O. Afolayan"
+      },
+      "assist": {
+        "id": 1672,
+        "name": "D. Sinani"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    }
+  ]
+}

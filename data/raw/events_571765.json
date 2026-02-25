@@ -1,0 +1,344 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "571765"
+  },
+  "errors": [],
+  "results": 15,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 94,
+        "name": "Rennes",
+        "logo": "https://media.api-sports.io/football/teams/94.png"
+      },
+      "player": {
+        "id": 1422,
+        "name": "J. Doku"
+      },
+      "assist": {
+        "id": 663,
+        "name": "M. Terrier"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 94,
+        "name": "Rennes",
+        "logo": "https://media.api-sports.io/football/teams/94.png"
+      },
+      "player": {
+        "id": 2202,
+        "name": "Hamari Traore"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Var",
+      "detail": "Goal cancelled",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 94,
+        "name": "Rennes",
+        "logo": "https://media.api-sports.io/football/teams/94.png"
+      },
+      "player": {
+        "id": 663,
+        "name": "M. Terrier"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Goal",
+      "detail": "Penalty",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 94,
+        "name": "Rennes",
+        "logo": "https://media.api-sports.io/football/teams/94.png"
+      },
+      "player": {
+        "id": 1422,
+        "name": "Jeremy Doku"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 112,
+        "name": "Metz",
+        "logo": "https://media.api-sports.io/football/teams/112.png"
+      },
+      "player": {
+        "id": 20924,
+        "name": "Vágner"
+      },
+      "assist": {
+        "id": 22153,
+        "name": "A. Leya"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 112,
+        "name": "Metz",
+        "logo": "https://media.api-sports.io/football/teams/112.png"
+      },
+      "player": {
+        "id": 23126,
+        "name": "M. Gueye"
+      },
+      "assist": {
+        "id": 129676,
+        "name": "P. Yade"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 112,
+        "name": "Metz",
+        "logo": "https://media.api-sports.io/football/teams/112.png"
+      },
+      "player": {
+        "id": 3416,
+        "name": "J. Boye"
+      },
+      "assist": {
+        "id": 20525,
+        "name": "M. Udol"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 112,
+        "name": "Metz",
+        "logo": "https://media.api-sports.io/football/teams/112.png"
+      },
+      "player": {
+        "id": 20521,
+        "name": "T. Delaine"
+      },
+      "assist": {
+        "id": 237129,
+        "name": "P. Sarr"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 94,
+        "name": "Rennes",
+        "logo": "https://media.api-sports.io/football/teams/94.png"
+      },
+      "player": {
+        "id": 663,
+        "name": "M. Terrier"
+      },
+      "assist": {
+        "id": 21393,
+        "name": "S. Guirassy"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 94,
+        "name": "Rennes",
+        "logo": "https://media.api-sports.io/football/teams/94.png"
+      },
+      "player": {
+        "id": 21154,
+        "name": "F. Tait"
+      },
+      "assist": {
+        "id": 192,
+        "name": "Dalbert Henrique"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 94,
+        "name": "Rennes",
+        "logo": "https://media.api-sports.io/football/teams/94.png"
+      },
+      "player": {
+        "id": 2206,
+        "name": "B. Bourigeaud"
+      },
+      "assist": {
+        "id": 2214,
+        "name": "R. Del Castillo"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 94,
+        "name": "Rennes",
+        "logo": "https://media.api-sports.io/football/teams/94.png"
+      },
+      "player": {
+        "id": 2985,
+        "name": "Alfred Gomis"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Time wasting"
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 94,
+        "name": "Rennes",
+        "logo": "https://media.api-sports.io/football/teams/94.png"
+      },
+      "player": {
+        "id": 21393,
+        "name": "S. Guirassy"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 94,
+        "name": "Rennes",
+        "logo": "https://media.api-sports.io/football/teams/94.png"
+      },
+      "player": {
+        "id": 21393,
+        "name": "Sehrou Guirassy"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Time wasting"
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 112,
+        "name": "Metz",
+        "logo": "https://media.api-sports.io/football/teams/112.png"
+      },
+      "player": {
+        "id": 129676,
+        "name": "P. Yade"
+      },
+      "assist": {
+        "id": 20525,
+        "name": "M. Udol"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    }
+  ]
+}

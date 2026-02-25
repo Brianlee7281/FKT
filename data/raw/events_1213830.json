@@ -1,0 +1,234 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "1213830"
+  },
+  "errors": [],
+  "results": 10,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 91,
+        "name": "Monaco",
+        "logo": "https://media.api-sports.io/football/teams/91.png"
+      },
+      "player": {
+        "id": 374058,
+        "name": "Lamine Camara"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 77,
+        "name": "Angers",
+        "logo": "https://media.api-sports.io/football/teams/77.png"
+      },
+      "player": {
+        "id": 103,
+        "name": "J. Aholou"
+      },
+      "assist": {
+        "id": 21618,
+        "name": "J. Allevinah"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 91,
+        "name": "Monaco",
+        "logo": "https://media.api-sports.io/football/teams/91.png"
+      },
+      "player": {
+        "id": 395040,
+        "name": "G. Ilenikhena"
+      },
+      "assist": {
+        "id": 343320,
+        "name": "E. Ben Seghir"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 77,
+        "name": "Angers",
+        "logo": "https://media.api-sports.io/football/teams/77.png"
+      },
+      "player": {
+        "id": 21618,
+        "name": "J. Allevinah"
+      },
+      "assist": {
+        "id": 174708,
+        "name": "Y. Belkhdim"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 77,
+        "name": "Angers",
+        "logo": "https://media.api-sports.io/football/teams/77.png"
+      },
+      "player": {
+        "id": 103,
+        "name": "J. Aholou"
+      },
+      "assist": {
+        "id": 21145,
+        "name": "P. Capelle"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 77,
+        "name": "Angers",
+        "logo": "https://media.api-sports.io/football/teams/77.png"
+      },
+      "player": {
+        "id": 3177,
+        "name": "F. El Melali"
+      },
+      "assist": {
+        "id": 163004,
+        "name": "E. Lepaul"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 91,
+        "name": "Monaco",
+        "logo": "https://media.api-sports.io/football/teams/91.png"
+      },
+      "player": {
+        "id": 374058,
+        "name": "L. Camara"
+      },
+      "assist": {
+        "id": 412711,
+        "name": "S. Bouabré"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 91,
+        "name": "Monaco",
+        "logo": "https://media.api-sports.io/football/teams/91.png"
+      },
+      "player": {
+        "id": 10316,
+        "name": "Caio Henrique"
+      },
+      "assist": {
+        "id": 333137,
+        "name": "K. Ouattara"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 77,
+        "name": "Angers",
+        "logo": "https://media.api-sports.io/football/teams/77.png"
+      },
+      "player": {
+        "id": 21145,
+        "name": "Pierrick Capelle"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Time wasting"
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 5
+      },
+      "team": {
+        "id": 77,
+        "name": "Angers",
+        "logo": "https://media.api-sports.io/football/teams/77.png"
+      },
+      "player": {
+        "id": 20537,
+        "name": "I. Niane"
+      },
+      "assist": {
+        "id": 284072,
+        "name": "B. Dieng"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    }
+  ]
+}

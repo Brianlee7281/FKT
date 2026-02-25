@@ -1,0 +1,344 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "1052270"
+  },
+  "errors": [],
+  "results": 15,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 511,
+        "name": "Empoli",
+        "logo": "https://media.api-sports.io/football/teams/511.png"
+      },
+      "player": {
+        "id": 288769,
+        "name": "Tommaso Baldanzi"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 1579,
+        "name": "Monza",
+        "logo": "https://media.api-sports.io/football/teams/1579.png"
+      },
+      "player": {
+        "id": 30501,
+        "name": "Armando Izzo"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 1579,
+        "name": "Monza",
+        "logo": "https://media.api-sports.io/football/teams/1579.png"
+      },
+      "player": {
+        "id": 30431,
+        "name": "A. Colpani"
+      },
+      "assist": {
+        "id": 30708,
+        "name": "S. Birindelli"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 511,
+        "name": "Empoli",
+        "logo": "https://media.api-sports.io/football/teams/511.png"
+      },
+      "player": {
+        "id": 286474,
+        "name": "M. Cancellieri"
+      },
+      "assist": {
+        "id": 340700,
+        "name": "J. Fazzini"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 1579,
+        "name": "Monza",
+        "logo": "https://media.api-sports.io/football/teams/1579.png"
+      },
+      "player": {
+        "id": 30431,
+        "name": "A. Colpani"
+      },
+      "assist": {
+        "id": 31532,
+        "name": "P. Ciurria"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 511,
+        "name": "Empoli",
+        "logo": "https://media.api-sports.io/football/teams/511.png"
+      },
+      "player": {
+        "id": 30845,
+        "name": "E. Gyasi"
+      },
+      "assist": {
+        "id": 30438,
+        "name": "N. Cambiaghi"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 511,
+        "name": "Empoli",
+        "logo": "https://media.api-sports.io/football/teams/511.png"
+      },
+      "player": {
+        "id": 6931,
+        "name": "L. Cacace"
+      },
+      "assist": {
+        "id": 30775,
+        "name": "G. Pezzella"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 1579,
+        "name": "Monza",
+        "logo": "https://media.api-sports.io/football/teams/1579.png"
+      },
+      "player": {
+        "id": 30501,
+        "name": "A. Izzo"
+      },
+      "assist": {
+        "id": 193,
+        "name": "D. D'Ambrosio"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 1579,
+        "name": "Monza",
+        "logo": "https://media.api-sports.io/football/teams/1579.png"
+      },
+      "player": {
+        "id": 30603,
+        "name": "Dany Mota"
+      },
+      "assist": {
+        "id": 9072,
+        "name": "M. Marić"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 511,
+        "name": "Empoli",
+        "logo": "https://media.api-sports.io/football/teams/511.png"
+      },
+      "player": {
+        "id": 2118,
+        "name": "R. Marin"
+      },
+      "assist": {
+        "id": 30440,
+        "name": "R. Piccoli"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 511,
+        "name": "Empoli",
+        "logo": "https://media.api-sports.io/football/teams/511.png"
+      },
+      "player": {
+        "id": 31060,
+        "name": "F. Caputo"
+      },
+      "assist": {
+        "id": 337982,
+        "name": "S. Shpendi"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 1579,
+        "name": "Monza",
+        "logo": "https://media.api-sports.io/football/teams/1579.png"
+      },
+      "player": {
+        "id": 30460,
+        "name": "G. Caprari"
+      },
+      "assist": {
+        "id": 312985,
+        "name": "S. Vignato"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 1579,
+        "name": "Monza",
+        "logo": "https://media.api-sports.io/football/teams/1579.png"
+      },
+      "player": {
+        "id": 30708,
+        "name": "S. Birindelli"
+      },
+      "assist": {
+        "id": 30768,
+        "name": "Pedro Pereira"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 1579,
+        "name": "Monza",
+        "logo": "https://media.api-sports.io/football/teams/1579.png"
+      },
+      "player": {
+        "id": 30431,
+        "name": "A. Colpani"
+      },
+      "assist": {
+        "id": 341646,
+        "name": "V. Carboni"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 5
+      },
+      "team": {
+        "id": 511,
+        "name": "Empoli",
+        "logo": "https://media.api-sports.io/football/teams/511.png"
+      },
+      "player": {
+        "id": 31555,
+        "name": "Nicolas Haas"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "871314"
+  },
+  "errors": [],
+  "results": 17,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "player": {
+        "id": 30484,
+        "name": "M. Svanberg"
+      },
+      "assist": {
+        "id": 126642,
+        "name": "P. Wimmer"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 159,
+        "name": "Hertha Berlin",
+        "logo": "https://media.api-sports.io/football/teams/159.png"
+      },
+      "player": {
+        "id": 53678,
+        "name": "Agustín Rogel"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 159,
+        "name": "Hertha Berlin",
+        "logo": "https://media.api-sports.io/football/teams/159.png"
+      },
+      "player": {
+        "id": 25458,
+        "name": "Dodi Lukebakio"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Handball"
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "player": {
+        "id": 25408,
+        "name": "M. Arnold"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Goal",
+      "detail": "Penalty",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "player": {
+        "id": 1302,
+        "name": "J. Wind"
+      },
+      "assist": {
+        "id": 30484,
+        "name": "M. Svanberg"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 159,
+        "name": "Hertha Berlin",
+        "logo": "https://media.api-sports.io/football/teams/159.png"
+      },
+      "player": {
+        "id": 53678,
+        "name": "A. Rogel"
+      },
+      "assist": {
+        "id": 53600,
+        "name": "F. Uremović"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 159,
+        "name": "Hertha Berlin",
+        "logo": "https://media.api-sports.io/football/teams/159.png"
+      },
+      "player": {
+        "id": 1324,
+        "name": "I. Šunjić"
+      },
+      "assist": {
+        "id": 25344,
+        "name": "M. Plattenhardt"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 159,
+        "name": "Hertha Berlin",
+        "logo": "https://media.api-sports.io/football/teams/159.png"
+      },
+      "player": {
+        "id": 25342,
+        "name": "M. Mittelstädt"
+      },
+      "assist": {
+        "id": 162771,
+        "name": "J. Ngankam"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 159,
+        "name": "Hertha Berlin",
+        "logo": "https://media.api-sports.io/football/teams/159.png"
+      },
+      "player": {
+        "id": 25307,
+        "name": "M. Richter"
+      },
+      "assist": {
+        "id": 286710,
+        "name": "D. Scherhant"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "player": {
+        "id": 25400,
+        "name": "Y. Gerhardt"
+      },
+      "assist": {
+        "id": 25410,
+        "name": "J. Guilavogui"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "player": {
+        "id": 126642,
+        "name": "P. Wimmer"
+      },
+      "assist": {
+        "id": 149557,
+        "name": "K. Paredes"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "player": {
+        "id": 25917,
+        "name": "R. Baku"
+      },
+      "assist": {
+        "id": 30484,
+        "name": "M. Svanberg"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "player": {
+        "id": 1302,
+        "name": "J. Wind"
+      },
+      "assist": {
+        "id": 14704,
+        "name": "B. Franjić"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "player": {
+        "id": 40560,
+        "name": "J. Kamiński"
+      },
+      "assist": {
+        "id": 81573,
+        "name": "Omar Marmoush"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "player": {
+        "id": 25408,
+        "name": "M. Arnold"
+      },
+      "assist": {
+        "id": 26260,
+        "name": "L. Waldschmidt"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "player": {
+        "id": 81573,
+        "name": "Omar Marmoush"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 159,
+        "name": "Hertha Berlin",
+        "logo": "https://media.api-sports.io/football/teams/159.png"
+      },
+      "player": {
+        "id": 18760,
+        "name": "J. Kenny"
+      },
+      "assist": {
+        "id": 25343,
+        "name": "P. Pekarík"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    }
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "882135"
+  },
+  "errors": [],
+  "results": 21,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 500,
+        "name": "Bologna",
+        "logo": "https://media.api-sports.io/football/teams/500.png"
+      },
+      "player": {
+        "id": 18830,
+        "name": "M. Arnautović"
+      },
+      "assist": {
+        "id": 30437,
+        "name": "M. Barrow"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 500,
+        "name": "Bologna",
+        "logo": "https://media.api-sports.io/football/teams/500.png"
+      },
+      "player": {
+        "id": 44814,
+        "name": "L. Ferguson"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 500,
+        "name": "Bologna",
+        "logo": "https://media.api-sports.io/football/teams/500.png"
+      },
+      "player": {
+        "id": 30488,
+        "name": "Riccardo Orsolini"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": 1
+      },
+      "team": {
+        "id": 500,
+        "name": "Bologna",
+        "logo": "https://media.api-sports.io/football/teams/500.png"
+      },
+      "player": {
+        "id": 711,
+        "name": "S. Posch"
+      },
+      "assist": {
+        "id": 30488,
+        "name": "R. Orsolini"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 520,
+        "name": "Cremonese",
+        "logo": "https://media.api-sports.io/football/teams/520.png"
+      },
+      "player": {
+        "id": 6057,
+        "name": "P. Galdames"
+      },
+      "assist": {
+        "id": 30634,
+        "name": "C. Buonaiuto"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 520,
+        "name": "Cremonese",
+        "logo": "https://media.api-sports.io/football/teams/520.png"
+      },
+      "player": {
+        "id": 1652,
+        "name": "F. Tsadjout"
+      },
+      "assist": {
+        "id": 31092,
+        "name": "D. Ciofani"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 520,
+        "name": "Cremonese",
+        "logo": "https://media.api-sports.io/football/teams/520.png"
+      },
+      "player": {
+        "id": 315,
+        "name": "V. Chiricheș"
+      },
+      "assist": {
+        "id": 61224,
+        "name": "L. Lochoshvili"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 500,
+        "name": "Bologna",
+        "logo": "https://media.api-sports.io/football/teams/500.png"
+      },
+      "player": {
+        "id": 44814,
+        "name": "L. Ferguson"
+      },
+      "assist": {
+        "id": 951,
+        "name": "M. Aebischer"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 500,
+        "name": "Bologna",
+        "logo": "https://media.api-sports.io/football/teams/500.png"
+      },
+      "player": {
+        "id": 6056,
+        "name": "N. Domínguez"
+      },
+      "assist": {
+        "id": 1322,
+        "name": "N. Moro"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 520,
+        "name": "Cremonese",
+        "logo": "https://media.api-sports.io/football/teams/520.png"
+      },
+      "player": {
+        "id": 30634,
+        "name": "Cristian Buonaiuto"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Var",
+      "detail": "Penalty cancelled",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 500,
+        "name": "Bologna",
+        "logo": "https://media.api-sports.io/football/teams/500.png"
+      },
+      "player": {
+        "id": 30488,
+        "name": "R. Orsolini"
+      },
+      "assist": {
+        "id": 1322,
+        "name": "N. Moro"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 500,
+        "name": "Bologna",
+        "logo": "https://media.api-sports.io/football/teams/500.png"
+      },
+      "player": {
+        "id": 37890,
+        "name": "J. Schouten"
+      },
+      "assist": {
+        "id": 1982,
+        "name": "G. Medel"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 500,
+        "name": "Bologna",
+        "logo": "https://media.api-sports.io/football/teams/500.png"
+      },
+      "player": {
+        "id": 711,
+        "name": "S. Posch"
+      },
+      "assist": {
+        "id": 30498,
+        "name": "L. De Silvestri"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 520,
+        "name": "Cremonese",
+        "logo": "https://media.api-sports.io/football/teams/520.png"
+      },
+      "player": {
+        "id": 31614,
+        "name": "M. Castagnetti"
+      },
+      "assist": {
+        "id": 127025,
+        "name": "G. Quagliata"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 500,
+        "name": "Bologna",
+        "logo": "https://media.api-sports.io/football/teams/500.png"
+      },
+      "player": {
+        "id": 30488,
+        "name": "Riccardo Orsolini"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 500,
+        "name": "Bologna",
+        "logo": "https://media.api-sports.io/football/teams/500.png"
+      },
+      "player": {
+        "id": 30488,
+        "name": "Riccardo Orsolini"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 520,
+        "name": "Cremonese",
+        "logo": "https://media.api-sports.io/football/teams/520.png"
+      },
+      "player": {
+        "id": 30530,
+        "name": "L. Sernicola"
+      },
+      "assist": {
+        "id": 342038,
+        "name": "F. Afena-Gyan"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 500,
+        "name": "Bologna",
+        "logo": "https://media.api-sports.io/football/teams/500.png"
+      },
+      "player": {
+        "id": 18830,
+        "name": "M. Arnautović"
+      },
+      "assist": {
+        "id": 30490,
+        "name": "N. Sansone"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 500,
+        "name": "Bologna",
+        "logo": "https://media.api-sports.io/football/teams/500.png"
+      },
+      "player": {
+        "id": 30490,
+        "name": "N. Sansone"
+      },
+      "assist": {
+        "id": 30437,
+        "name": "M. Barrow"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 520,
+        "name": "Cremonese",
+        "logo": "https://media.api-sports.io/football/teams/520.png"
+      },
+      "player": {
+        "id": 30634,
+        "name": "Cristian Buonaiuto"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 1
+      },
+      "team": {
+        "id": 520,
+        "name": "Cremonese",
+        "logo": "https://media.api-sports.io/football/teams/520.png"
+      },
+      "player": {
+        "id": 31092,
+        "name": "D. Ciofani"
+      },
+      "assist": {
+        "id": 61224,
+        "name": "L. Lochoshvili"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    }
+  ]
+}

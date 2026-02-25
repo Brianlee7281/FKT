@@ -1,0 +1,300 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "871368"
+  },
+  "errors": [],
+  "results": 13,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 174,
+        "name": "FC Schalke 04",
+        "logo": "https://media.api-sports.io/football/teams/174.png"
+      },
+      "player": {
+        "id": 1156,
+        "name": "Tom Krauß"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Persistent fouling"
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 174,
+        "name": "FC Schalke 04",
+        "logo": "https://media.api-sports.io/football/teams/174.png"
+      },
+      "player": {
+        "id": 25058,
+        "name": "M. Riemann"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Goal",
+      "detail": "Own Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 176,
+        "name": "VfL BOCHUM",
+        "logo": "https://media.api-sports.io/football/teams/176.png"
+      },
+      "player": {
+        "id": 163022,
+        "name": "Patrick Osterhage"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 174,
+        "name": "FC Schalke 04",
+        "logo": "https://media.api-sports.io/football/teams/174.png"
+      },
+      "player": {
+        "id": 48371,
+        "name": "É. Balanta"
+      },
+      "assist": {
+        "id": 25155,
+        "name": "T. Mohr"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 176,
+        "name": "VfL BOCHUM",
+        "logo": "https://media.api-sports.io/football/teams/176.png"
+      },
+      "player": {
+        "id": 19291,
+        "name": "S. Janko"
+      },
+      "assist": {
+        "id": 1449,
+        "name": "J. Osei-Tutu"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 176,
+        "name": "VfL BOCHUM",
+        "logo": "https://media.api-sports.io/football/teams/176.png"
+      },
+      "player": {
+        "id": 25375,
+        "name": "T. Asano"
+      },
+      "assist": {
+        "id": 26227,
+        "name": "M. Broschinski"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 174,
+        "name": "FC Schalke 04",
+        "logo": "https://media.api-sports.io/football/teams/174.png"
+      },
+      "player": {
+        "id": 1372,
+        "name": "M. Frey"
+      },
+      "assist": {
+        "id": 24812,
+        "name": "S. Terodde"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 176,
+        "name": "VfL BOCHUM",
+        "logo": "https://media.api-sports.io/football/teams/176.png"
+      },
+      "player": {
+        "id": 25461,
+        "name": "K. Stöger"
+      },
+      "assist": {
+        "id": 25079,
+        "name": "S. Ganvoula"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 174,
+        "name": "FC Schalke 04",
+        "logo": "https://media.api-sports.io/football/teams/174.png"
+      },
+      "player": {
+        "id": 25242,
+        "name": "M. Bülter"
+      },
+      "assist": {
+        "id": 108563,
+        "name": "R. Zalazar"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 176,
+        "name": "VfL BOCHUM",
+        "logo": "https://media.api-sports.io/football/teams/176.png"
+      },
+      "player": {
+        "id": 26242,
+        "name": "Keven Schlotterbeck"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Var",
+      "detail": "Goal cancelled",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 176,
+        "name": "VfL BOCHUM",
+        "logo": "https://media.api-sports.io/football/teams/176.png"
+      },
+      "player": {
+        "id": 25183,
+        "name": "Philipp Förster"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 176,
+        "name": "VfL BOCHUM",
+        "logo": "https://media.api-sports.io/football/teams/176.png"
+      },
+      "player": {
+        "id": 163022,
+        "name": "P. Osterhage"
+      },
+      "assist": {
+        "id": 3403,
+        "name": "P. Kunde"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 174,
+        "name": "FC Schalke 04",
+        "logo": "https://media.api-sports.io/football/teams/174.png"
+      },
+      "player": {
+        "id": 108563,
+        "name": "R. Zalazar"
+      },
+      "assist": {
+        "id": 3003,
+        "name": "M. Kamiński"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    }
+  ]
+}

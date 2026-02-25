@@ -1,0 +1,278 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "1048982"
+  },
+  "errors": [],
+  "results": 12,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 181,
+        "name": "SV Darmstadt 98",
+        "logo": "https://media.api-sports.io/football/teams/181.png"
+      },
+      "player": {
+        "id": 24955,
+        "name": "M. Honsak"
+      },
+      "assist": {
+        "id": 25049,
+        "name": "M. Mehlem"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 26255,
+        "name": "L. Höler"
+      },
+      "assist": {
+        "id": 2915,
+        "name": "M. Ginter"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 181,
+        "name": "SV Darmstadt 98",
+        "logo": "https://media.api-sports.io/football/teams/181.png"
+      },
+      "player": {
+        "id": 19069,
+        "name": "C. Zimmermann"
+      },
+      "assist": {
+        "id": 14704,
+        "name": "B. Franjić"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 181,
+        "name": "SV Darmstadt 98",
+        "logo": "https://media.api-sports.io/football/teams/181.png"
+      },
+      "player": {
+        "id": 24974,
+        "name": "A. Seydel"
+      },
+      "assist": {
+        "id": 135513,
+        "name": "O. Vilhelmsson"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 181,
+        "name": "SV Darmstadt 98",
+        "logo": "https://media.api-sports.io/football/teams/181.png"
+      },
+      "player": {
+        "id": 24910,
+        "name": "T. Skarke"
+      },
+      "assist": {
+        "id": 7683,
+        "name": "E. Karić"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 202844,
+        "name": "Noah Weißhaupt"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 2598,
+        "name": "R. Doan"
+      },
+      "assist": {
+        "id": 191233,
+        "name": "K. Sildillia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 26235,
+        "name": "M. Gulde"
+      },
+      "assist": {
+        "id": 191160,
+        "name": "J. Makengo"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 4
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 26250,
+        "name": "Nicolas Höfler"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 2
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 26255,
+        "name": "L. Höler"
+      },
+      "assist": {
+        "id": 125173,
+        "name": "J. Adamu"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 2
+      },
+      "team": {
+        "id": 181,
+        "name": "SV Darmstadt 98",
+        "logo": "https://media.api-sports.io/football/teams/181.png"
+      },
+      "player": {
+        "id": 24955,
+        "name": "M. Honsak"
+      },
+      "assist": {
+        "id": 26342,
+        "name": "L. Pfeiffer"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 2
+      },
+      "team": {
+        "id": 181,
+        "name": "SV Darmstadt 98",
+        "logo": "https://media.api-sports.io/football/teams/181.png"
+      },
+      "player": {
+        "id": 25049,
+        "name": "M. Mehlem"
+      },
+      "assist": {
+        "id": 24823,
+        "name": "K. Gjasula"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    }
+  ]
+}

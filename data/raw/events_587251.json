@@ -1,0 +1,168 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "587251"
+  },
+  "errors": [],
+  "results": 7,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 159,
+        "name": "Hertha Berlin",
+        "logo": "https://media.api-sports.io/football/teams/159.png"
+      },
+      "player": {
+        "id": 1165,
+        "name": "Matheus Cunha"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 159,
+        "name": "Hertha Berlin",
+        "logo": "https://media.api-sports.io/football/teams/159.png"
+      },
+      "player": {
+        "id": 25458,
+        "name": "D. Lukébakio"
+      },
+      "assist": {
+        "id": 162771,
+        "name": "J. Ngankam"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 159,
+        "name": "Hertha Berlin",
+        "logo": "https://media.api-sports.io/football/teams/159.png"
+      },
+      "player": {
+        "id": 1651,
+        "name": "K. Piątek"
+      },
+      "assist": {
+        "id": 2751,
+        "name": "M. Leckie"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 168,
+        "name": "Bayer Leverkusen",
+        "logo": "https://media.api-sports.io/football/teams/168.png"
+      },
+      "player": {
+        "id": 968,
+        "name": "A. Dragović"
+      },
+      "assist": {
+        "id": 969,
+        "name": "T. Jedvaj"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 159,
+        "name": "Hertha Berlin",
+        "logo": "https://media.api-sports.io/football/teams/159.png"
+      },
+      "player": {
+        "id": 6168,
+        "name": "O. Alderete"
+      },
+      "assist": {
+        "id": 199934,
+        "name": "M. Dárdai"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 168,
+        "name": "Bayer Leverkusen",
+        "logo": "https://media.api-sports.io/football/teams/168.png"
+      },
+      "player": {
+        "id": 536,
+        "name": "Daley Sinkgraven"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 168,
+        "name": "Bayer Leverkusen",
+        "logo": "https://media.api-sports.io/football/teams/168.png"
+      },
+      "player": {
+        "id": 983,
+        "name": "Leon Bailey"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    }
+  ]
+}

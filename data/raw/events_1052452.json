@@ -1,0 +1,366 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "1052452"
+  },
+  "errors": [],
+  "results": 16,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 514,
+        "name": "Salernitana",
+        "logo": "https://media.api-sports.io/football/teams/514.png"
+      },
+      "player": {
+        "id": 202,
+        "name": "A. Candreva"
+      },
+      "assist": {
+        "id": 14327,
+        "name": "D. Bradarić"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 492,
+        "name": "Napoli",
+        "logo": "https://media.api-sports.io/football/teams/492.png"
+      },
+      "player": {
+        "id": 15797,
+        "name": "Jens Cajuste"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 514,
+        "name": "Salernitana",
+        "logo": "https://media.api-sports.io/football/teams/514.png"
+      },
+      "player": {
+        "id": 301772,
+        "name": "Mateusz Łęgowski"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": 2
+      },
+      "team": {
+        "id": 492,
+        "name": "Napoli",
+        "logo": "https://media.api-sports.io/football/teams/492.png"
+      },
+      "player": {
+        "id": 30414,
+        "name": "Giovanni Simeone"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Var",
+      "detail": "Penalty confirmed",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": 4
+      },
+      "team": {
+        "id": 492,
+        "name": "Napoli",
+        "logo": "https://media.api-sports.io/football/teams/492.png"
+      },
+      "player": {
+        "id": 219,
+        "name": "M. Politano"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Goal",
+      "detail": "Penalty",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 492,
+        "name": "Napoli",
+        "logo": "https://media.api-sports.io/football/teams/492.png"
+      },
+      "player": {
+        "id": 325,
+        "name": "G. Gaetano"
+      },
+      "assist": {
+        "id": 30543,
+        "name": "G. Raspadori"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 492,
+        "name": "Napoli",
+        "logo": "https://media.api-sports.io/football/teams/492.png"
+      },
+      "player": {
+        "id": 219,
+        "name": "M. Politano"
+      },
+      "assist": {
+        "id": 31219,
+        "name": "A. Zerbin"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 514,
+        "name": "Salernitana",
+        "logo": "https://media.api-sports.io/football/teams/514.png"
+      },
+      "player": {
+        "id": 301772,
+        "name": "M. Łęgowski"
+      },
+      "assist": {
+        "id": 325388,
+        "name": "N. Pierozzi"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 492,
+        "name": "Napoli",
+        "logo": "https://media.api-sports.io/football/teams/492.png"
+      },
+      "player": {
+        "id": 15797,
+        "name": "J. Cajuste"
+      },
+      "assist": {
+        "id": 1151,
+        "name": "D. Demme"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 514,
+        "name": "Salernitana",
+        "logo": "https://media.api-sports.io/football/teams/514.png"
+      },
+      "player": {
+        "id": 31389,
+        "name": "N. Gyömbér"
+      },
+      "assist": {
+        "id": 125715,
+        "name": "F. Daniliuc"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 10
+      },
+      "team": {
+        "id": 492,
+        "name": "Napoli",
+        "logo": "https://media.api-sports.io/football/teams/492.png"
+      },
+      "player": {
+        "id": 483,
+        "name": "Khvicha Kvaratskhelia"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Time wasting"
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 7
+      },
+      "team": {
+        "id": 492,
+        "name": "Napoli",
+        "logo": "https://media.api-sports.io/football/teams/492.png"
+      },
+      "player": {
+        "id": 1314,
+        "name": "Amir Rrahmani"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 5
+      },
+      "team": {
+        "id": 514,
+        "name": "Salernitana",
+        "logo": "https://media.api-sports.io/football/teams/514.png"
+      },
+      "player": {
+        "id": 14327,
+        "name": "Domagoj Bradarić"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 1
+      },
+      "team": {
+        "id": 514,
+        "name": "Salernitana",
+        "logo": "https://media.api-sports.io/football/teams/514.png"
+      },
+      "player": {
+        "id": 21585,
+        "name": "J. Sambia"
+      },
+      "assist": {
+        "id": 2945,
+        "name": "D. Bronn"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 2
+      },
+      "team": {
+        "id": 514,
+        "name": "Salernitana",
+        "logo": "https://media.api-sports.io/football/teams/514.png"
+      },
+      "player": {
+        "id": 31003,
+        "name": "S. Nwankwo"
+      },
+      "assist": {
+        "id": 335816,
+        "name": "C. Ikwuemesi"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 6
+      },
+      "team": {
+        "id": 492,
+        "name": "Napoli",
+        "logo": "https://media.api-sports.io/football/teams/492.png"
+      },
+      "player": {
+        "id": 1314,
+        "name": "Amir Rrahmani"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    }
+  ]
+}

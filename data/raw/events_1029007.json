@@ -1,0 +1,366 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "1029007"
+  },
+  "errors": [],
+  "results": 16,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 172,
+        "name": "VfB Stuttgart",
+        "logo": "https://media.api-sports.io/football/teams/172.png"
+      },
+      "player": {
+        "id": 1445,
+        "name": "K. Mavropanos"
+      },
+      "assist": {
+        "id": 26303,
+        "name": "B. Sosa"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 175,
+        "name": "Hamburger SV",
+        "logo": "https://media.api-sports.io/football/teams/175.png"
+      },
+      "player": {
+        "id": 38124,
+        "name": "Ludovit Reis"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 172,
+        "name": "VfB Stuttgart",
+        "logo": "https://media.api-sports.io/football/teams/172.png"
+      },
+      "player": {
+        "id": 162887,
+        "name": "Enzo Millot"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Var",
+      "detail": "Penalty cancelled",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 172,
+        "name": "VfB Stuttgart",
+        "logo": "https://media.api-sports.io/football/teams/172.png"
+      },
+      "player": {
+        "id": 24868,
+        "name": "J. Vagnoman"
+      },
+      "assist": {
+        "id": 162887,
+        "name": "E. Millot"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 172,
+        "name": "VfB Stuttgart",
+        "logo": "https://media.api-sports.io/football/teams/172.png"
+      },
+      "player": {
+        "id": 21393,
+        "name": "S. Guirassy"
+      },
+      "assist": {
+        "id": 26303,
+        "name": "B. Sosa"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 175,
+        "name": "Hamburger SV",
+        "logo": "https://media.api-sports.io/football/teams/175.png"
+      },
+      "player": {
+        "id": 38124,
+        "name": "L. Reis"
+      },
+      "assist": {
+        "id": 177780,
+        "name": "A. Suhonen"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 175,
+        "name": "Hamburger SV",
+        "logo": "https://media.api-sports.io/football/teams/175.png"
+      },
+      "player": {
+        "id": 8483,
+        "name": "J. Dompé"
+      },
+      "assist": {
+        "id": 162773,
+        "name": "R. Königsdörffer"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 172,
+        "name": "VfB Stuttgart",
+        "logo": "https://media.api-sports.io/football/teams/172.png"
+      },
+      "player": {
+        "id": 24798,
+        "name": "C. Führich"
+      },
+      "assist": {
+        "id": 265363,
+        "name": "Tiago Tomás"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 172,
+        "name": "VfB Stuttgart",
+        "logo": "https://media.api-sports.io/football/teams/172.png"
+      },
+      "player": {
+        "id": 21393,
+        "name": "S. Guirassy"
+      },
+      "assist": {
+        "id": 26342,
+        "name": "L. Pfeiffer"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 175,
+        "name": "Hamburger SV",
+        "logo": "https://media.api-sports.io/football/teams/175.png"
+      },
+      "player": {
+        "id": 177780,
+        "name": "Anssi Suhonen"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 175,
+        "name": "Hamburger SV",
+        "logo": "https://media.api-sports.io/football/teams/175.png"
+      },
+      "player": {
+        "id": 177780,
+        "name": "Anssi Suhonen"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Var",
+      "detail": null,
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 175,
+        "name": "Hamburger SV",
+        "logo": "https://media.api-sports.io/football/teams/175.png"
+      },
+      "player": {
+        "id": 162773,
+        "name": "Ransford Yeboah Königsdörffer"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 172,
+        "name": "VfB Stuttgart",
+        "logo": "https://media.api-sports.io/football/teams/172.png"
+      },
+      "player": {
+        "id": 24963,
+        "name": "Atakan Karazor"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Time wasting"
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 172,
+        "name": "VfB Stuttgart",
+        "logo": "https://media.api-sports.io/football/teams/172.png"
+      },
+      "player": {
+        "id": 162887,
+        "name": "E. Millot"
+      },
+      "assist": {
+        "id": 179567,
+        "name": "L. Egloff"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 172,
+        "name": "VfB Stuttgart",
+        "logo": "https://media.api-sports.io/football/teams/172.png"
+      },
+      "player": {
+        "id": 24963,
+        "name": "A. Karazor"
+      },
+      "assist": {
+        "id": 24806,
+        "name": "N. Nartey"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 2
+      },
+      "team": {
+        "id": 172,
+        "name": "VfB Stuttgart",
+        "logo": "https://media.api-sports.io/football/teams/172.png"
+      },
+      "player": {
+        "id": 25368,
+        "name": "W. Anton"
+      },
+      "assist": {
+        "id": 13,
+        "name": "D. Zagadou"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    }
+  ]
+}

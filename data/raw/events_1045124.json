@@ -1,0 +1,278 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "1045124"
+  },
+  "errors": [],
+  "results": 12,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 85,
+        "name": "Paris Saint Germain",
+        "logo": "https://media.api-sports.io/football/teams/85.png"
+      },
+      "player": {
+        "id": 1146,
+        "name": "N. Mukiele"
+      },
+      "assist": {
+        "id": 9,
+        "name": "A. Hakimi"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
+        "id": 99,
+        "name": "Clermont Foot",
+        "logo": "https://media.api-sports.io/football/teams/99.png"
+      },
+      "player": {
+        "id": 286660,
+        "name": "H. Keïta"
+      },
+      "assist": {
+        "id": 271572,
+        "name": "A. Virginius"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": 7
+      },
+      "team": {
+        "id": 85,
+        "name": "Paris Saint Germain",
+        "logo": "https://media.api-sports.io/football/teams/85.png"
+      },
+      "player": {
+        "id": 409216,
+        "name": "Senny Mayulu"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Var",
+      "detail": "Goal cancelled",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": 8
+      },
+      "team": {
+        "id": 99,
+        "name": "Clermont Foot",
+        "logo": "https://media.api-sports.io/football/teams/99.png"
+      },
+      "player": {
+        "id": 21618,
+        "name": "J. Allevinah"
+      },
+      "assist": {
+        "id": 2203,
+        "name": "M. Zeffane"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 99,
+        "name": "Clermont Foot",
+        "logo": "https://media.api-sports.io/football/teams/99.png"
+      },
+      "player": {
+        "id": 271572,
+        "name": "A. Virginius"
+      },
+      "assist": {
+        "id": 105873,
+        "name": "S. Nicholson"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 85,
+        "name": "Paris Saint Germain",
+        "logo": "https://media.api-sports.io/football/teams/85.png"
+      },
+      "player": {
+        "id": 21104,
+        "name": "R. Kolo Muani"
+      },
+      "assist": {
+        "id": 278,
+        "name": "K. Mbappé"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 85,
+        "name": "Paris Saint Germain",
+        "logo": "https://media.api-sports.io/football/teams/85.png"
+      },
+      "player": {
+        "id": 409216,
+        "name": "S. Mayulu"
+      },
+      "assist": {
+        "id": 927,
+        "name": "Lee Kang-In"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 85,
+        "name": "Paris Saint Germain",
+        "logo": "https://media.api-sports.io/football/teams/85.png"
+      },
+      "player": {
+        "id": 198,
+        "name": "M. Škriniar"
+      },
+      "assist": {
+        "id": 257,
+        "name": "Marquinhos"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 99,
+        "name": "Clermont Foot",
+        "logo": "https://media.api-sports.io/football/teams/99.png"
+      },
+      "player": {
+        "id": 20778,
+        "name": "Y. Magnin"
+      },
+      "assist": {
+        "id": 367636,
+        "name": "J. Jacquet"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 85,
+        "name": "Paris Saint Germain",
+        "logo": "https://media.api-sports.io/football/teams/85.png"
+      },
+      "player": {
+        "id": 51494,
+        "name": "Manuel Ugarte"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Handball"
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 99,
+        "name": "Clermont Foot",
+        "logo": "https://media.api-sports.io/football/teams/99.png"
+      },
+      "player": {
+        "id": 286660,
+        "name": "H. Keïta"
+      },
+      "assist": {
+        "id": 46710,
+        "name": "Jérémie Bela"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 85,
+        "name": "Paris Saint Germain",
+        "logo": "https://media.api-sports.io/football/teams/85.png"
+      },
+      "player": {
+        "id": 41585,
+        "name": "Gonçalo Ramos"
+      },
+      "assist": {
+        "id": 278,
+        "name": "K. Mbappé"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    }
+  ]
+}

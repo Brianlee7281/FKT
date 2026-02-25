@@ -1,0 +1,366 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "587426"
+  },
+  "errors": [],
+  "results": 16,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 188,
+        "name": "Arminia Bielefeld",
+        "logo": "https://media.api-sports.io/football/teams/188.png"
+      },
+      "player": {
+        "id": 25025,
+        "name": "Fabian Klos"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Argument"
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 21153,
+        "name": "Baptiste Santamaria"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Argument"
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 188,
+        "name": "Arminia Bielefeld",
+        "logo": "https://media.api-sports.io/football/teams/188.png"
+      },
+      "player": {
+        "id": 25030,
+        "name": "Andreas Voglsammer"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 188,
+        "name": "Arminia Bielefeld",
+        "logo": "https://media.api-sports.io/football/teams/188.png"
+      },
+      "player": {
+        "id": 21153,
+        "name": "B. Santamaría"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Goal",
+      "detail": "Own Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 26252,
+        "name": "R. Sallai"
+      },
+      "assist": {
+        "id": 36905,
+        "name": "G. Til"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 512,
+        "name": "Jeong Woo-Yeong"
+      },
+      "assist": {
+        "id": 26258,
+        "name": "N. Petersen"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 188,
+        "name": "Arminia Bielefeld",
+        "logo": "https://media.api-sports.io/football/teams/188.png"
+      },
+      "player": {
+        "id": 48065,
+        "name": "Joakim Nilsson"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Var",
+      "detail": "Goal cancelled",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 26249,
+        "name": "J. Haberer"
+      },
+      "assist": {
+        "id": 127928,
+        "name": "L. Tempelmann"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 188,
+        "name": "Arminia Bielefeld",
+        "logo": "https://media.api-sports.io/football/teams/188.png"
+      },
+      "player": {
+        "id": 25007,
+        "name": "C. Brunner"
+      },
+      "assist": {
+        "id": 8579,
+        "name": "N. De Medina"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 26235,
+        "name": "M. Gulde"
+      },
+      "assist": {
+        "id": 26237,
+        "name": "D. Heintz"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 21153,
+        "name": "B. Santamaría"
+      },
+      "assist": {
+        "id": 2913,
+        "name": "Kwon Chang-Hoon"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 160,
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "player": {
+        "id": 25303,
+        "name": "Jonathan Schmid"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 188,
+        "name": "Arminia Bielefeld",
+        "logo": "https://media.api-sports.io/football/teams/188.png"
+      },
+      "player": {
+        "id": 25355,
+        "name": "A. Maier"
+      },
+      "assist": {
+        "id": 25499,
+        "name": "F. Kunze"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 188,
+        "name": "Arminia Bielefeld",
+        "logo": "https://media.api-sports.io/football/teams/188.png"
+      },
+      "player": {
+        "id": 8579,
+        "name": "Nathan De Medina"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Time wasting"
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 1
+      },
+      "team": {
+        "id": 188,
+        "name": "Arminia Bielefeld",
+        "logo": "https://media.api-sports.io/football/teams/188.png"
+      },
+      "player": {
+        "id": 2598,
+        "name": "R. Doan"
+      },
+      "assist": {
+        "id": 7682,
+        "name": "C. Gebauer"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 188,
+        "name": "Arminia Bielefeld",
+        "logo": "https://media.api-sports.io/football/teams/188.png"
+      },
+      "player": {
+        "id": 25025,
+        "name": "F. Klos"
+      },
+      "assist": {
+        "id": 25029,
+        "name": "S. Schipplock"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    }
+  ]
+}

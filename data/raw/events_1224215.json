@@ -1,0 +1,366 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "1224215"
+  },
+  "errors": [],
+  "results": 16,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 180,
+        "name": "1. FC Heidenheim",
+        "logo": "https://media.api-sports.io/football/teams/180.png"
+      },
+      "player": {
+        "id": 178106,
+        "name": "M. Pieringer"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Goal",
+      "detail": "Penalty",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "player": {
+        "id": 162409,
+        "name": "K. Koulierakis"
+      },
+      "assist": {
+        "id": 1291,
+        "name": "D. Vavro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
+        "id": 180,
+        "name": "1. FC Heidenheim",
+        "logo": "https://media.api-sports.io/football/teams/180.png"
+      },
+      "player": {
+        "id": 177815,
+        "name": "Tim Siersleben"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 180,
+        "name": "1. FC Heidenheim",
+        "logo": "https://media.api-sports.io/football/teams/180.png"
+      },
+      "player": {
+        "id": 8959,
+        "name": "Adrian Beck"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "player": {
+        "id": 265363,
+        "name": "Tiago Tomás"
+      },
+      "assist": {
+        "id": 1302,
+        "name": "J. Wind"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "player": {
+        "id": 25400,
+        "name": "Yannick Gerhardt"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Argument"
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 180,
+        "name": "1. FC Heidenheim",
+        "logo": "https://media.api-sports.io/football/teams/180.png"
+      },
+      "player": {
+        "id": 127619,
+        "name": "Jan Schöppner"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Argument"
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "player": {
+        "id": 380503,
+        "name": "B. Dárdai"
+      },
+      "assist": {
+        "id": 19461,
+        "name": "L. Nmecha"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "player": {
+        "id": 15916,
+        "name": "A. Skov Olsen"
+      },
+      "assist": {
+        "id": 40560,
+        "name": "J. Kamiński"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 180,
+        "name": "1. FC Heidenheim",
+        "logo": "https://media.api-sports.io/football/teams/180.png"
+      },
+      "player": {
+        "id": 24897,
+        "name": "M. Busch"
+      },
+      "assist": {
+        "id": 24979,
+        "name": "J. Föhrenbach"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 180,
+        "name": "1. FC Heidenheim",
+        "logo": "https://media.api-sports.io/football/teams/180.png"
+      },
+      "player": {
+        "id": 24904,
+        "name": "Niklas Dorsch"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 180,
+        "name": "1. FC Heidenheim",
+        "logo": "https://media.api-sports.io/football/teams/180.png"
+      },
+      "player": {
+        "id": 280335,
+        "name": "F. Krätzig"
+      },
+      "assist": {
+        "id": 280055,
+        "name": "L. Kerber"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 180,
+        "name": "1. FC Heidenheim",
+        "logo": "https://media.api-sports.io/football/teams/180.png"
+      },
+      "player": {
+        "id": 8959,
+        "name": "A. Beck"
+      },
+      "assist": {
+        "id": 327895,
+        "name": "P. Wanner"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "player": {
+        "id": 177618,
+        "name": "K. Fischer"
+      },
+      "assist": {
+        "id": 25192,
+        "name": "K. Behrens"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 3
+      },
+      "team": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "player": {
+        "id": 19461,
+        "name": "Lukas Nmecha"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 180,
+        "name": "1. FC Heidenheim",
+        "logo": "https://media.api-sports.io/football/teams/180.png"
+      },
+      "player": {
+        "id": 24904,
+        "name": "N. Dorsch"
+      },
+      "assist": {
+        "id": 26530,
+        "name": "S. Schimmer"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    }
+  ]
+}

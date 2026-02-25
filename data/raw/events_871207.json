@@ -1,0 +1,322 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "871207"
+  },
+  "errors": [],
+  "results": 14,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 159,
+        "name": "Hertha Berlin",
+        "logo": "https://media.api-sports.io/football/teams/159.png"
+      },
+      "player": {
+        "id": 53600,
+        "name": "Filip Uremović"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 170,
+        "name": "FC Augsburg",
+        "logo": "https://media.api-sports.io/football/teams/170.png"
+      },
+      "player": {
+        "id": 2577,
+        "name": "Carlos Gruezo"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 170,
+        "name": "FC Augsburg",
+        "logo": "https://media.api-sports.io/football/teams/170.png"
+      },
+      "player": {
+        "id": 2577,
+        "name": "C. Gruezo"
+      },
+      "assist": {
+        "id": 975,
+        "name": "J. Baumgartlinger"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 170,
+        "name": "FC Augsburg",
+        "logo": "https://media.api-sports.io/football/teams/170.png"
+      },
+      "player": {
+        "id": 25355,
+        "name": "A. Maier"
+      },
+      "assist": {
+        "id": 48471,
+        "name": "R. Vargas"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 159,
+        "name": "Hertha Berlin",
+        "logo": "https://media.api-sports.io/football/teams/159.png"
+      },
+      "player": {
+        "id": 25458,
+        "name": "D. Lukébakio"
+      },
+      "assist": {
+        "id": 25344,
+        "name": "M. Plattenhardt"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 159,
+        "name": "Hertha Berlin",
+        "logo": "https://media.api-sports.io/football/teams/159.png"
+      },
+      "player": {
+        "id": 418,
+        "name": "S. Serdar"
+      },
+      "assist": {
+        "id": 25925,
+        "name": "J. Boëtius"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 159,
+        "name": "Hertha Berlin",
+        "logo": "https://media.api-sports.io/football/teams/159.png"
+      },
+      "player": {
+        "id": 39121,
+        "name": "C. Ejuke"
+      },
+      "assist": {
+        "id": 25307,
+        "name": "M. Richter"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 170,
+        "name": "FC Augsburg",
+        "logo": "https://media.api-sports.io/football/teams/170.png"
+      },
+      "player": {
+        "id": 7691,
+        "name": "Mergim Berisha"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 170,
+        "name": "FC Augsburg",
+        "logo": "https://media.api-sports.io/football/teams/170.png"
+      },
+      "player": {
+        "id": 46930,
+        "name": "E. Demirović"
+      },
+      "assist": {
+        "id": 26257,
+        "name": "F. Niederlechner"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 170,
+        "name": "FC Augsburg",
+        "logo": "https://media.api-sports.io/football/teams/170.png"
+      },
+      "player": {
+        "id": 7691,
+        "name": "M. Berisha"
+      },
+      "assist": {
+        "id": 25298,
+        "name": "A. Hahn"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 170,
+        "name": "FC Augsburg",
+        "logo": "https://media.api-sports.io/football/teams/170.png"
+      },
+      "player": {
+        "id": 25413,
+        "name": "E. Rexhbeçaj"
+      },
+      "assist": {
+        "id": 177452,
+        "name": "L. Petkov"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 159,
+        "name": "Hertha Berlin",
+        "logo": "https://media.api-sports.io/football/teams/159.png"
+      },
+      "player": {
+        "id": 25458,
+        "name": "D. Lukébakio"
+      },
+      "assist": {
+        "id": 199934,
+        "name": "M. Dárdai"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 159,
+        "name": "Hertha Berlin",
+        "logo": "https://media.api-sports.io/football/teams/159.png"
+      },
+      "player": {
+        "id": 21155,
+        "name": "W. Kanga"
+      },
+      "assist": {
+        "id": 25362,
+        "name": "D. Selke"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 3
+      },
+      "team": {
+        "id": 159,
+        "name": "Hertha Berlin",
+        "logo": "https://media.api-sports.io/football/teams/159.png"
+      },
+      "player": {
+        "id": 25307,
+        "name": "M. Richter"
+      },
+      "assist": {
+        "id": 25362,
+        "name": "D. Selke"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    }
+  ]
+}

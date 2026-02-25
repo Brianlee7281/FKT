@@ -1,0 +1,344 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "1224230"
+  },
+  "errors": [],
+  "results": 15,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 169,
+        "name": "Eintracht Frankfurt",
+        "logo": "https://media.api-sports.io/football/teams/169.png"
+      },
+      "player": {
+        "id": 369674,
+        "name": "J. Bahoya"
+      },
+      "assist": {
+        "id": 276670,
+        "name": "F. Chaïbi"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 169,
+        "name": "Eintracht Frankfurt",
+        "logo": "https://media.api-sports.io/football/teams/169.png"
+      },
+      "player": {
+        "id": 174565,
+        "name": "Hugo Ekitiké"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Argument"
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 180,
+        "name": "1. FC Heidenheim",
+        "logo": "https://media.api-sports.io/football/teams/180.png"
+      },
+      "player": {
+        "id": 24904,
+        "name": "Niklas Dorsch"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Argument"
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 169,
+        "name": "Eintracht Frankfurt",
+        "logo": "https://media.api-sports.io/football/teams/169.png"
+      },
+      "player": {
+        "id": 26238,
+        "name": "R. Koch"
+      },
+      "assist": {
+        "id": 174565,
+        "name": "H. Ekitiké"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 180,
+        "name": "1. FC Heidenheim",
+        "logo": "https://media.api-sports.io/football/teams/180.png"
+      },
+      "player": {
+        "id": 24904,
+        "name": "N. Dorsch"
+      },
+      "assist": {
+        "id": 327895,
+        "name": "P. Wanner"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 180,
+        "name": "1. FC Heidenheim",
+        "logo": "https://media.api-sports.io/football/teams/180.png"
+      },
+      "player": {
+        "id": 25203,
+        "name": "B. Gimber"
+      },
+      "assist": {
+        "id": 125720,
+        "name": "S. Conteh"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 169,
+        "name": "Eintracht Frankfurt",
+        "logo": "https://media.api-sports.io/football/teams/169.png"
+      },
+      "player": {
+        "id": 533,
+        "name": "R. Kristensen"
+      },
+      "assist": {
+        "id": 269531,
+        "name": "N. Collins"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 169,
+        "name": "Eintracht Frankfurt",
+        "logo": "https://media.api-sports.io/football/teams/169.png"
+      },
+      "player": {
+        "id": 339887,
+        "name": "C. Uzun"
+      },
+      "assist": {
+        "id": 280074,
+        "name": "N. Brown"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 180,
+        "name": "1. FC Heidenheim",
+        "logo": "https://media.api-sports.io/football/teams/180.png"
+      },
+      "player": {
+        "id": 280335,
+        "name": "F. Krätzig"
+      },
+      "assist": {
+        "id": 26530,
+        "name": "S. Schimmer"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 180,
+        "name": "1. FC Heidenheim",
+        "logo": "https://media.api-sports.io/football/teams/180.png"
+      },
+      "player": {
+        "id": 24897,
+        "name": "M. Busch"
+      },
+      "assist": {
+        "id": 24979,
+        "name": "J. Föhrenbach"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 169,
+        "name": "Eintracht Frankfurt",
+        "logo": "https://media.api-sports.io/football/teams/169.png"
+      },
+      "player": {
+        "id": 369674,
+        "name": "J. Bahoya"
+      },
+      "assist": {
+        "id": 16,
+        "name": "M. Götze"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 169,
+        "name": "Eintracht Frankfurt",
+        "logo": "https://media.api-sports.io/football/teams/169.png"
+      },
+      "player": {
+        "id": 339874,
+        "name": "O. Højlund"
+      },
+      "assist": {
+        "id": 335094,
+        "name": "H. Larsson"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 169,
+        "name": "Eintracht Frankfurt",
+        "logo": "https://media.api-sports.io/football/teams/169.png"
+      },
+      "player": {
+        "id": 174565,
+        "name": "H. Ekitiké"
+      },
+      "assist": {
+        "id": 280074,
+        "name": "N. Brown"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 169,
+        "name": "Eintracht Frankfurt",
+        "logo": "https://media.api-sports.io/football/teams/169.png"
+      },
+      "player": {
+        "id": 174565,
+        "name": "H. Ekitiké"
+      },
+      "assist": {
+        "id": 162707,
+        "name": "E. Wahi"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 180,
+        "name": "1. FC Heidenheim",
+        "logo": "https://media.api-sports.io/football/teams/180.png"
+      },
+      "player": {
+        "id": 178106,
+        "name": "M. Pieringer"
+      },
+      "assist": {
+        "id": 125723,
+        "name": "T. Keller"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    }
+  ]
+}

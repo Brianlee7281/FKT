@@ -1,0 +1,366 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "882151"
+  },
+  "errors": [],
+  "results": 16,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 520,
+        "name": "Cremonese",
+        "logo": "https://media.api-sports.io/football/teams/520.png"
+      },
+      "player": {
+        "id": 315,
+        "name": "V. Chiricheș"
+      },
+      "assist": {
+        "id": 30919,
+        "name": "M. Bianchetti"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 520,
+        "name": "Cremonese",
+        "logo": "https://media.api-sports.io/football/teams/520.png"
+      },
+      "player": {
+        "id": 6057,
+        "name": "P. Galdames"
+      },
+      "assist": {
+        "id": 31614,
+        "name": "M. Castagnetti"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 520,
+        "name": "Cremonese",
+        "logo": "https://media.api-sports.io/football/teams/520.png"
+      },
+      "player": {
+        "id": 30634,
+        "name": "Cristian Buonaiuto"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Var",
+      "detail": "Penalty confirmed",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 520,
+        "name": "Cremonese",
+        "logo": "https://media.api-sports.io/football/teams/520.png"
+      },
+      "player": {
+        "id": 30634,
+        "name": "C. Buonaiuto"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Goal",
+      "detail": "Penalty",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 520,
+        "name": "Cremonese",
+        "logo": "https://media.api-sports.io/football/teams/520.png"
+      },
+      "player": {
+        "id": 31084,
+        "name": "Paolo Ghiglione"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 39,
+        "extra": null
+      },
+      "team": {
+        "id": 514,
+        "name": "Salernitana",
+        "logo": "https://media.api-sports.io/football/teams/514.png"
+      },
+      "player": {
+        "id": 1748,
+        "name": "Lassana Coulibaly"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 520,
+        "name": "Cremonese",
+        "logo": "https://media.api-sports.io/football/teams/520.png"
+      },
+      "player": {
+        "id": 30634,
+        "name": "C. Buonaiuto"
+      },
+      "assist": {
+        "id": 30848,
+        "name": "D. Okereke"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 520,
+        "name": "Cremonese",
+        "logo": "https://media.api-sports.io/football/teams/520.png"
+      },
+      "player": {
+        "id": 31092,
+        "name": "D. Ciofani"
+      },
+      "assist": {
+        "id": 1652,
+        "name": "F. Tsadjout"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 514,
+        "name": "Salernitana",
+        "logo": "https://media.api-sports.io/football/teams/514.png"
+      },
+      "player": {
+        "id": 1188,
+        "name": "E. Botheim"
+      },
+      "assist": {
+        "id": 30836,
+        "name": "G. Maggiore"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 514,
+        "name": "Salernitana",
+        "logo": "https://media.api-sports.io/football/teams/514.png"
+      },
+      "player": {
+        "id": 39286,
+        "name": "E. Bohinen"
+      },
+      "assist": {
+        "id": 881,
+        "name": "H. Nicolussi"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 514,
+        "name": "Salernitana",
+        "logo": "https://media.api-sports.io/football/teams/514.png"
+      },
+      "player": {
+        "id": 31389,
+        "name": "N. Gyömbér"
+      },
+      "assist": {
+        "id": 21585,
+        "name": "J. Sambia"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 520,
+        "name": "Cremonese",
+        "logo": "https://media.api-sports.io/football/teams/520.png"
+      },
+      "player": {
+        "id": 31084,
+        "name": "P. Ghiglione"
+      },
+      "assist": {
+        "id": 30530,
+        "name": "L. Sernicola"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 514,
+        "name": "Salernitana",
+        "logo": "https://media.api-sports.io/football/teams/514.png"
+      },
+      "player": {
+        "id": 1651,
+        "name": "Krzysztof Piątek"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 520,
+        "name": "Cremonese",
+        "logo": "https://media.api-sports.io/football/teams/520.png"
+      },
+      "player": {
+        "id": 1652,
+        "name": "F. Tsadjout"
+      },
+      "assist": {
+        "id": 30507,
+        "name": "S. Meïté"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 7
+      },
+      "team": {
+        "id": 514,
+        "name": "Salernitana",
+        "logo": "https://media.api-sports.io/football/teams/514.png"
+      },
+      "player": {
+        "id": 21585,
+        "name": "Junior Sambia"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Var",
+      "detail": "Penalty cancelled",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 3
+      },
+      "team": {
+        "id": 514,
+        "name": "Salernitana",
+        "logo": "https://media.api-sports.io/football/teams/514.png"
+      },
+      "player": {
+        "id": 134431,
+        "name": "L. Pirola"
+      },
+      "assist": {
+        "id": 2773,
+        "name": "W. Troost-Ekong"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    }
+  ]
+}

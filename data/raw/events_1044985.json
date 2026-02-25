@@ -1,0 +1,322 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "1044985"
+  },
+  "errors": [],
+  "results": 14,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "LE Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 24288,
+        "name": "Mohamed Bayo"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 91,
+        "name": "Monaco",
+        "logo": "https://media.api-sports.io/football/teams/91.png"
+      },
+      "player": {
+        "id": 2810,
+        "name": "Denis Zakaria"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 91,
+        "name": "Monaco",
+        "logo": "https://media.api-sports.io/football/teams/91.png"
+      },
+      "player": {
+        "id": 81,
+        "name": "K. Diatta"
+      },
+      "assist": {
+        "id": 374361,
+        "name": "E. Diop"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 91,
+        "name": "Monaco",
+        "logo": "https://media.api-sports.io/football/teams/91.png"
+      },
+      "player": {
+        "id": 274300,
+        "name": "M. Akliouche"
+      },
+      "assist": {
+        "id": 1101,
+        "name": "T. Minamino"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "LE Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 21103,
+        "name": "Abdoulaye Touré"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "LE Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 8681,
+        "name": "N. Alioui"
+      },
+      "assist": {
+        "id": 22266,
+        "name": "S. Grandsir"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "LE Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 289304,
+        "name": "A. Joujou"
+      },
+      "assist": {
+        "id": 15783,
+        "name": "E. Sabbi"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 91,
+        "name": "Monaco",
+        "logo": "https://media.api-sports.io/football/teams/91.png"
+      },
+      "player": {
+        "id": 2059,
+        "name": "W. Ben Yedder"
+      },
+      "assist": {
+        "id": 138835,
+        "name": "F. Balogun"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "LE Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 21103,
+        "name": "A. Touré"
+      },
+      "assist": {
+        "id": 128342,
+        "name": "R. Ndiaye"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 6
+      },
+      "team": {
+        "id": 111,
+        "name": "LE Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 15783,
+        "name": "Emmanuel Sabbi"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Var",
+      "detail": "Penalty confirmed",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 9
+      },
+      "team": {
+        "id": 91,
+        "name": "Monaco",
+        "logo": "https://media.api-sports.io/football/teams/91.png"
+      },
+      "player": {
+        "id": 22254,
+        "name": "Youssouf Fofana"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Argument"
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 7
+      },
+      "team": {
+        "id": 91,
+        "name": "Monaco",
+        "logo": "https://media.api-sports.io/football/teams/91.png"
+      },
+      "player": {
+        "id": 374361,
+        "name": "Edan Diop"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "LE Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 1212,
+        "name": "D. Kuzyaev"
+      },
+      "assist": {
+        "id": 174937,
+        "name": "Y. Kechta"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "LE Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 24288,
+        "name": "M. Bayo"
+      },
+      "assist": {
+        "id": 339633,
+        "name": "A. Logbo"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    }
+  ]
+}

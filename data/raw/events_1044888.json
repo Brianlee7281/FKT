@@ -1,0 +1,388 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "1044888"
+  },
+  "errors": [],
+  "results": 17,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "LE Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 64255,
+        "name": "G. Lloris"
+      },
+      "assist": {
+        "id": 20576,
+        "name": "Y. Salmier"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 82,
+        "name": "Montpellier",
+        "logo": "https://media.api-sports.io/football/teams/82.png"
+      },
+      "player": {
+        "id": 22138,
+        "name": "Christopher Jullien"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "LE Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 174927,
+        "name": "Arouna Sangante"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 82,
+        "name": "Montpellier",
+        "logo": "https://media.api-sports.io/football/teams/82.png"
+      },
+      "player": {
+        "id": 57446,
+        "name": "A. Adams"
+      },
+      "assist": {
+        "id": 21443,
+        "name": "T. Savanier"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 82,
+        "name": "Montpellier",
+        "logo": "https://media.api-sports.io/football/teams/82.png"
+      },
+      "player": {
+        "id": 57446,
+        "name": "A. Adams"
+      },
+      "assist": {
+        "id": 3335,
+        "name": "K. Kouyaté"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "LE Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 8681,
+        "name": "N. Alioui"
+      },
+      "assist": {
+        "id": 289304,
+        "name": "A. Joujou"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "LE Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 156465,
+        "name": "I. Soumaré"
+      },
+      "assist": {
+        "id": 339633,
+        "name": "A. Logbo"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "LE Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 284071,
+        "name": "Oussama Targhalline"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 82,
+        "name": "Montpellier",
+        "logo": "https://media.api-sports.io/football/teams/82.png"
+      },
+      "player": {
+        "id": 22102,
+        "name": "W. Khazri"
+      },
+      "assist": {
+        "id": 22097,
+        "name": "A. Nordin"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "LE Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 128342,
+        "name": "R. Ndiaye"
+      },
+      "assist": {
+        "id": 22266,
+        "name": "S. Grandsir"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "LE Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 2336,
+        "name": "L. Négo"
+      },
+      "assist": {
+        "id": 174937,
+        "name": "Y. Kechta"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 82,
+        "name": "Montpellier",
+        "logo": "https://media.api-sports.io/football/teams/82.png"
+      },
+      "player": {
+        "id": 21443,
+        "name": "T. Savanier"
+      },
+      "assist": {
+        "id": 326088,
+        "name": "K. Fayad"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 82,
+        "name": "Montpellier",
+        "logo": "https://media.api-sports.io/football/teams/82.png"
+      },
+      "player": {
+        "id": 57446,
+        "name": "A. Adams"
+      },
+      "assist": {
+        "id": 162707,
+        "name": "E. Wahi"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 82,
+        "name": "Montpellier",
+        "logo": "https://media.api-sports.io/football/teams/82.png"
+      },
+      "player": {
+        "id": 21439,
+        "name": "J. Ferri"
+      },
+      "assist": {
+        "id": 20833,
+        "name": "L. Leroy"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 82,
+        "name": "Montpellier",
+        "logo": "https://media.api-sports.io/football/teams/82.png"
+      },
+      "player": {
+        "id": 22141,
+        "name": "I. Sylla"
+      },
+      "assist": {
+        "id": 333118,
+        "name": "L. Mincarelli Davin"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "LE Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 1212,
+        "name": "D. Kuzyaev"
+      },
+      "assist": {
+        "id": 21103,
+        "name": "A. Touré"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "LE Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 22266,
+        "name": "S. Grandsir"
+      },
+      "assist": {
+        "id": 174915,
+        "name": "J. Casimir"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    }
+  ]
+}

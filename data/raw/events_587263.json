@@ -1,0 +1,256 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "587263"
+  },
+  "errors": [],
+  "results": 11,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 192,
+        "name": "FC Koln",
+        "logo": "https://media.api-sports.io/football/teams/192.png"
+      },
+      "player": {
+        "id": 181908,
+        "name": "J. Thielmann"
+      },
+      "assist": {
+        "id": 24807,
+        "name": "S. Özcan"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "player": {
+        "id": 25408,
+        "name": "M. Arnold"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 39,
+        "extra": null
+      },
+      "team": {
+        "id": 192,
+        "name": "FC Koln",
+        "logo": "https://media.api-sports.io/football/teams/192.png"
+      },
+      "player": {
+        "id": 24807,
+        "name": "S. Özcan"
+      },
+      "assist": {
+        "id": 24797,
+        "name": "D. Drexler"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 192,
+        "name": "FC Koln",
+        "logo": "https://media.api-sports.io/football/teams/192.png"
+      },
+      "player": {
+        "id": 25349,
+        "name": "O. Duda"
+      },
+      "assist": {
+        "id": 25413,
+        "name": "E. Rexhbecaj"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "player": {
+        "id": 25416,
+        "name": "W. Weghorst"
+      },
+      "assist": {
+        "id": 2809,
+        "name": "R. Steffen"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "player": {
+        "id": 24,
+        "name": "M. Philipp"
+      },
+      "assist": {
+        "id": 25415,
+        "name": "D. Ginczek"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "player": {
+        "id": 25404,
+        "name": "J. Roussillon"
+      },
+      "assist": {
+        "id": 25208,
+        "name": "Paulo Otávio"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 192,
+        "name": "FC Koln",
+        "logo": "https://media.api-sports.io/football/teams/192.png"
+      },
+      "player": {
+        "id": 25413,
+        "name": "E. Rexhbecaj"
+      },
+      "assist": {
+        "id": 2862,
+        "name": "S. Andersson"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 192,
+        "name": "FC Koln",
+        "logo": "https://media.api-sports.io/football/teams/192.png"
+      },
+      "player": {
+        "id": 26,
+        "name": "M. Wolf"
+      },
+      "assist": {
+        "id": 24794,
+        "name": "B. Schmitz"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "player": {
+        "id": 25208,
+        "name": "Paulo Otávio"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 161,
+        "name": "VfL Wolfsburg",
+        "logo": "https://media.api-sports.io/football/teams/161.png"
+      },
+      "player": {
+        "id": 2809,
+        "name": "R. Steffen"
+      },
+      "assist": {
+        "id": 81573,
+        "name": "O. Marmoush"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    }
+  ]
+}

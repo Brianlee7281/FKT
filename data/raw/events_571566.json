@@ -1,0 +1,256 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "571566"
+  },
+  "errors": [],
+  "results": 11,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 89,
+        "name": "Dijon",
+        "logo": "https://media.api-sports.io/football/teams/89.png"
+      },
+      "player": {
+        "id": 41323,
+        "name": "Mama Baldé"
+      },
+      "assist": {
+        "id": 20675,
+        "name": "M. Chouiar"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 112,
+        "name": "Metz",
+        "logo": "https://media.api-sports.io/football/teams/112.png"
+      },
+      "player": {
+        "id": 129676,
+        "name": "P. Yade"
+      },
+      "assist": {
+        "id": 23126,
+        "name": "M. Gueye"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 112,
+        "name": "Metz",
+        "logo": "https://media.api-sports.io/football/teams/112.png"
+      },
+      "player": {
+        "id": 20533,
+        "name": "O. Nguette"
+      },
+      "assist": {
+        "id": 22153,
+        "name": "A. Leya"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 112,
+        "name": "Metz",
+        "logo": "https://media.api-sports.io/football/teams/112.png"
+      },
+      "player": {
+        "id": 129676,
+        "name": "P. Yade"
+      },
+      "assist": {
+        "id": 20924,
+        "name": "Vágner"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 89,
+        "name": "Dijon",
+        "logo": "https://media.api-sports.io/football/teams/89.png"
+      },
+      "player": {
+        "id": 959,
+        "name": "R. Assalé"
+      },
+      "assist": {
+        "id": 2994,
+        "name": "M. Konaté"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 112,
+        "name": "Metz",
+        "logo": "https://media.api-sports.io/football/teams/112.png"
+      },
+      "player": {
+        "id": 20924,
+        "name": "Vagner Dias"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 89,
+        "name": "Dijon",
+        "logo": "https://media.api-sports.io/football/teams/89.png"
+      },
+      "player": {
+        "id": 21698,
+        "name": "F. Chafik"
+      },
+      "assist": {
+        "id": 3024,
+        "name": "G. Ngonda"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 112,
+        "name": "Metz",
+        "logo": "https://media.api-sports.io/football/teams/112.png"
+      },
+      "player": {
+        "id": 23126,
+        "name": "M. Gueye"
+      },
+      "assist": {
+        "id": 20673,
+        "name": "T. Ambrose"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 89,
+        "name": "Dijon",
+        "logo": "https://media.api-sports.io/football/teams/89.png"
+      },
+      "player": {
+        "id": 41323,
+        "name": "Mama Baldé"
+      },
+      "assist": {
+        "id": 660,
+        "name": "P. Diop"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 112,
+        "name": "Metz",
+        "logo": "https://media.api-sports.io/football/teams/112.png"
+      },
+      "player": {
+        "id": 20521,
+        "name": "Thomas Delaine"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Handball"
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 89,
+        "name": "Dijon",
+        "logo": "https://media.api-sports.io/football/teams/89.png"
+      },
+      "player": {
+        "id": 20675,
+        "name": "Mounir Chouiar"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Argument"
+    }
+  ]
+}

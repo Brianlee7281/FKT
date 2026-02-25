@@ -1,0 +1,476 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "1213923"
+  },
+  "errors": [],
+  "results": 21,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "Le Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 2336,
+        "name": "Loic Négo"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 77,
+        "name": "Angers",
+        "logo": "https://media.api-sports.io/football/teams/77.png"
+      },
+      "player": {
+        "id": 174660,
+        "name": "Lilian Raolisoa"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Var",
+      "detail": "Card upgrade",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 77,
+        "name": "Angers",
+        "logo": "https://media.api-sports.io/football/teams/77.png"
+      },
+      "player": {
+        "id": 174660,
+        "name": "Lilian Raolisoa"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "Le Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 174927,
+        "name": "Arouna Sangante"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "Le Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 174927,
+        "name": "Arouna Sangante"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Var",
+      "detail": null,
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 77,
+        "name": "Angers",
+        "logo": "https://media.api-sports.io/football/teams/77.png"
+      },
+      "player": {
+        "id": 20692,
+        "name": "Himad Abdelli"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Argument"
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "Le Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 174915,
+        "name": "Josué Casimir"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Argument"
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "Le Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 105,
+        "name": "F. Ballo-Touré"
+      },
+      "assist": {
+        "id": 23637,
+        "name": "Y. Zouaoui"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 77,
+        "name": "Angers",
+        "logo": "https://media.api-sports.io/football/teams/77.png"
+      },
+      "player": {
+        "id": 21618,
+        "name": "J. Allevinah"
+      },
+      "assist": {
+        "id": 3234,
+        "name": "A. Bamba"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "Le Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 289304,
+        "name": "A. Joujou"
+      },
+      "assist": {
+        "id": 156465,
+        "name": "I. Soumaré"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 77,
+        "name": "Angers",
+        "logo": "https://media.api-sports.io/football/teams/77.png"
+      },
+      "player": {
+        "id": 3234,
+        "name": "Abdoulaye Bamba"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "Le Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 386284,
+        "name": "M. Diawara"
+      },
+      "assist": {
+        "id": 1370,
+        "name": "A. Ayew"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "Le Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 1617,
+        "name": "Koka"
+      },
+      "assist": {
+        "id": 128342,
+        "name": "R. Ndiaye"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "Le Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 1370,
+        "name": "A. Ayew"
+      },
+      "assist": {
+        "id": 174915,
+        "name": "J. Casimir"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 77,
+        "name": "Angers",
+        "logo": "https://media.api-sports.io/football/teams/77.png"
+      },
+      "player": {
+        "id": 163004,
+        "name": "E. Lepaul"
+      },
+      "assist": {
+        "id": 20537,
+        "name": "I. Niane"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 77,
+        "name": "Angers",
+        "logo": "https://media.api-sports.io/football/teams/77.png"
+      },
+      "player": {
+        "id": 3177,
+        "name": "F. El Melali"
+      },
+      "assist": {
+        "id": 3175,
+        "name": "Z. Ferhat"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "Le Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 174937,
+        "name": "Yassine Kechta"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 77,
+        "name": "Angers",
+        "logo": "https://media.api-sports.io/football/teams/77.png"
+      },
+      "player": {
+        "id": 103,
+        "name": "J. Aholou"
+      },
+      "assist": {
+        "id": 405074,
+        "name": "J. Kalumba"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "Le Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 64255,
+        "name": "Gautier Lloris"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 111,
+        "name": "Le Havre",
+        "logo": "https://media.api-sports.io/football/teams/111.png"
+      },
+      "player": {
+        "id": 174937,
+        "name": "Y. Kechta"
+      },
+      "assist": {
+        "id": 20576,
+        "name": "Y. Salmier"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 77,
+        "name": "Angers",
+        "logo": "https://media.api-sports.io/football/teams/77.png"
+      },
+      "player": {
+        "id": 41146,
+        "name": "F. Hanin"
+      },
+      "assist": {
+        "id": 20537,
+        "name": "I. Niane"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    }
+  ]
+}

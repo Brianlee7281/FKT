@@ -1,0 +1,146 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "571593"
+  },
+  "errors": [],
+  "results": 6,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 22,
+        "extra": null
+      },
+      "team": {
+        "id": 1063,
+        "name": "Saint Etienne",
+        "logo": "https://media.api-sports.io/football/teams/1063.png"
+      },
+      "player": {
+        "id": 20689,
+        "name": "Harold Moukoudi"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 89,
+        "name": "Dijon",
+        "logo": "https://media.api-sports.io/football/teams/89.png"
+      },
+      "player": {
+        "id": 20675,
+        "name": "M. Chouiar"
+      },
+      "assist": {
+        "id": 21711,
+        "name": "F. Sammaritano"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 1063,
+        "name": "Saint Etienne",
+        "logo": "https://media.api-sports.io/football/teams/1063.png"
+      },
+      "player": {
+        "id": 22102,
+        "name": "W. Khazri"
+      },
+      "assist": {
+        "id": 47436,
+        "name": "R. Boudebouz"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 89,
+        "name": "Dijon",
+        "logo": "https://media.api-sports.io/football/teams/89.png"
+      },
+      "player": {
+        "id": 90594,
+        "name": "E. Ebimbe"
+      },
+      "assist": {
+        "id": 18047,
+        "name": "M. Dobre"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 1063,
+        "name": "Saint Etienne",
+        "logo": "https://media.api-sports.io/football/teams/1063.png"
+      },
+      "player": {
+        "id": 22095,
+        "name": "R. Hamouma"
+      },
+      "assist": {
+        "id": 22097,
+        "name": "A. Nordin"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 1
+      },
+      "team": {
+        "id": 89,
+        "name": "Dijon",
+        "logo": "https://media.api-sports.io/football/teams/89.png"
+      },
+      "player": {
+        "id": 41323,
+        "name": "Mama Baldé"
+      },
+      "assist": {
+        "id": 2994,
+        "name": "M. Konaté"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    }
+  ]
+}

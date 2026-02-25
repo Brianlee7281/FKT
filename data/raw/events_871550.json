@@ -1,0 +1,454 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "871550"
+  },
+  "errors": [],
+  "results": 20,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 99,
+        "name": "Clermont Foot",
+        "logo": "https://media.api-sports.io/football/teams/99.png"
+      },
+      "player": {
+        "id": 20677,
+        "name": "G. Kyei"
+      },
+      "assist": {
+        "id": 20776,
+        "name": "J. Gastien"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 99,
+        "name": "Clermont Foot",
+        "logo": "https://media.api-sports.io/football/teams/99.png"
+      },
+      "player": {
+        "id": 20776,
+        "name": "Johan Gastien"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 98,
+        "name": "Ajaccio",
+        "logo": "https://media.api-sports.io/football/teams/98.png"
+      },
+      "player": {
+        "id": 135272,
+        "name": "K. Spadanuda"
+      },
+      "assist": {
+        "id": 20955,
+        "name": "R. Nouri"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 98,
+        "name": "Ajaccio",
+        "logo": "https://media.api-sports.io/football/teams/98.png"
+      },
+      "player": {
+        "id": 20925,
+        "name": "V. Marchetti"
+      },
+      "assist": {
+        "id": 21148,
+        "name": "T. Mangani"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 98,
+        "name": "Ajaccio",
+        "logo": "https://media.api-sports.io/football/teams/98.png"
+      },
+      "player": {
+        "id": 20592,
+        "name": "Y. Touzghar"
+      },
+      "assist": {
+        "id": 24128,
+        "name": "B. Moussiti-Oko"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 99,
+        "name": "Clermont Foot",
+        "logo": "https://media.api-sports.io/football/teams/99.png"
+      },
+      "player": {
+        "id": 20677,
+        "name": "G. Kyei"
+      },
+      "assist": {
+        "id": 39095,
+        "name": "E. Rashani"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 98,
+        "name": "Ajaccio",
+        "logo": "https://media.api-sports.io/football/teams/98.png"
+      },
+      "player": {
+        "id": 21695,
+        "name": "Mickaël Alphonse"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 98,
+        "name": "Ajaccio",
+        "logo": "https://media.api-sports.io/football/teams/98.png"
+      },
+      "player": {
+        "id": 20939,
+        "name": "C. Avinel"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 98,
+        "name": "Ajaccio",
+        "logo": "https://media.api-sports.io/football/teams/98.png"
+      },
+      "player": {
+        "id": 193645,
+        "name": "Y. Cimignani"
+      },
+      "assist": {
+        "id": 21005,
+        "name": "C. Bayala"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 99,
+        "name": "Clermont Foot",
+        "logo": "https://media.api-sports.io/football/teams/99.png"
+      },
+      "player": {
+        "id": 20776,
+        "name": "J. Gastien"
+      },
+      "assist": {
+        "id": 2203,
+        "name": "M. Zeffane"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 99,
+        "name": "Clermont Foot",
+        "logo": "https://media.api-sports.io/football/teams/99.png"
+      },
+      "player": {
+        "id": 146008,
+        "name": "M. Cham"
+      },
+      "assist": {
+        "id": 2955,
+        "name": "S. Khaoui"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 98,
+        "name": "Ajaccio",
+        "logo": "https://media.api-sports.io/football/teams/98.png"
+      },
+      "player": {
+        "id": 21695,
+        "name": "M. Alphonse"
+      },
+      "assist": {
+        "id": 20960,
+        "name": "M. Youssouf"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 99,
+        "name": "Clermont Foot",
+        "logo": "https://media.api-sports.io/football/teams/99.png"
+      },
+      "player": {
+        "id": 2203,
+        "name": "Mehdi Zeffane"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 98,
+        "name": "Ajaccio",
+        "logo": "https://media.api-sports.io/football/teams/98.png"
+      },
+      "player": {
+        "id": 21005,
+        "name": "Cyrille Bayala"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Argument"
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 99,
+        "name": "Clermont Foot",
+        "logo": "https://media.api-sports.io/football/teams/99.png"
+      },
+      "player": {
+        "id": 8718,
+        "name": "Maximiliano Caufriez"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Argument"
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 99,
+        "name": "Clermont Foot",
+        "logo": "https://media.api-sports.io/football/teams/99.png"
+      },
+      "player": {
+        "id": 2051,
+        "name": "M. Gonalons"
+      },
+      "assist": {
+        "id": 75,
+        "name": "B. Baiye"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 99,
+        "name": "Clermont Foot",
+        "logo": "https://media.api-sports.io/football/teams/99.png"
+      },
+      "player": {
+        "id": 1325,
+        "name": "K. Andrić"
+      },
+      "assist": {
+        "id": 3384,
+        "name": "J. Dossou"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 98,
+        "name": "Ajaccio",
+        "logo": "https://media.api-sports.io/football/teams/98.png"
+      },
+      "player": {
+        "id": 20941,
+        "name": "Ismaël Diallo"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 99,
+        "name": "Clermont Foot",
+        "logo": "https://media.api-sports.io/football/teams/99.png"
+      },
+      "player": {
+        "id": 39095,
+        "name": "E. Rashani"
+      },
+      "assist": {
+        "id": 40392,
+        "name": "M. Wieteska"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 1
+      },
+      "team": {
+        "id": 99,
+        "name": "Clermont Foot",
+        "logo": "https://media.api-sports.io/football/teams/99.png"
+      },
+      "player": {
+        "id": 3384,
+        "name": "J. Dossou"
+      },
+      "assist": {
+        "id": 2955,
+        "name": "S. Khaoui"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    }
+  ]
+}

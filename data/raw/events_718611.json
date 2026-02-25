@@ -1,0 +1,410 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "718611"
+  },
+  "errors": [],
+  "results": 18,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 78,
+        "name": "Bordeaux",
+        "logo": "https://media.api-sports.io/football/teams/78.png"
+      },
+      "player": {
+        "id": 651,
+        "name": "Marcelo"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 110,
+        "name": "Estac Troyes",
+        "logo": "https://media.api-sports.io/football/teams/110.png"
+      },
+      "player": {
+        "id": 84101,
+        "name": "Dylan Chambost"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Var",
+      "detail": "Penalty awarded",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 110,
+        "name": "Estac Troyes",
+        "logo": "https://media.api-sports.io/football/teams/110.png"
+      },
+      "player": {
+        "id": 1254,
+        "name": "G. Poussin"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Goal",
+      "detail": "Own Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": 2
+      },
+      "team": {
+        "id": 78,
+        "name": "Bordeaux",
+        "logo": "https://media.api-sports.io/football/teams/78.png"
+      },
+      "player": {
+        "id": 48066,
+        "name": "Stian Gregersen"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 78,
+        "name": "Bordeaux",
+        "logo": "https://media.api-sports.io/football/teams/78.png"
+      },
+      "player": {
+        "id": 7578,
+        "name": "G. Mensah"
+      },
+      "assist": {
+        "id": 51095,
+        "name": "A. Elis"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 78,
+        "name": "Bordeaux",
+        "logo": "https://media.api-sports.io/football/teams/78.png"
+      },
+      "player": {
+        "id": 1265,
+        "name": "Y. Adli"
+      },
+      "assist": {
+        "id": 2216,
+        "name": "M. Niang"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 110,
+        "name": "Estac Troyes",
+        "logo": "https://media.api-sports.io/football/teams/110.png"
+      },
+      "player": {
+        "id": 84081,
+        "name": "Giulian Biancone"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 110,
+        "name": "Estac Troyes",
+        "logo": "https://media.api-sports.io/football/teams/110.png"
+      },
+      "player": {
+        "id": 67973,
+        "name": "I. Ugbo"
+      },
+      "assist": {
+        "id": 3292,
+        "name": "L. Mothiba"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 78,
+        "name": "Bordeaux",
+        "logo": "https://media.api-sports.io/football/teams/78.png"
+      },
+      "player": {
+        "id": 2216,
+        "name": "M'Baye Niang"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 78,
+        "name": "Bordeaux",
+        "logo": "https://media.api-sports.io/football/teams/78.png"
+      },
+      "player": {
+        "id": 162067,
+        "name": "T. Pembélé"
+      },
+      "assist": {
+        "id": 41107,
+        "name": "Fransérgio"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 78,
+        "name": "Bordeaux",
+        "logo": "https://media.api-sports.io/football/teams/78.png"
+      },
+      "player": {
+        "id": 41748,
+        "name": "J. Onana"
+      },
+      "assist": {
+        "id": 25358,
+        "name": "J. Dilrosun"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 78,
+        "name": "Bordeaux",
+        "logo": "https://media.api-sports.io/football/teams/78.png"
+      },
+      "player": {
+        "id": 1949,
+        "name": "Anel Ahmedhodžić"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Argument"
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 110,
+        "name": "Estac Troyes",
+        "logo": "https://media.api-sports.io/football/teams/110.png"
+      },
+      "player": {
+        "id": 41323,
+        "name": "Mama Baldé"
+      },
+      "assist": {
+        "id": 3334,
+        "name": "Y. Koné"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 78,
+        "name": "Bordeaux",
+        "logo": "https://media.api-sports.io/football/teams/78.png"
+      },
+      "player": {
+        "id": 1254,
+        "name": "Gaetan Poussin"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Argument"
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 110,
+        "name": "Estac Troyes",
+        "logo": "https://media.api-sports.io/football/teams/110.png"
+      },
+      "player": {
+        "id": 3292,
+        "name": "L. Mothiba"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Goal",
+      "detail": "Penalty",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 4
+      },
+      "team": {
+        "id": 78,
+        "name": "Bordeaux",
+        "logo": "https://media.api-sports.io/football/teams/78.png"
+      },
+      "player": {
+        "id": 22016,
+        "name": "Remi Oudin"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 2
+      },
+      "team": {
+        "id": 110,
+        "name": "Estac Troyes",
+        "logo": "https://media.api-sports.io/football/teams/110.png"
+      },
+      "player": {
+        "id": 3334,
+        "name": "Youssouf Koné"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": 3
+      },
+      "team": {
+        "id": 110,
+        "name": "Estac Troyes",
+        "logo": "https://media.api-sports.io/football/teams/110.png"
+      },
+      "player": {
+        "id": 22005,
+        "name": "X. Chavalerin"
+      },
+      "assist": {
+        "id": 325787,
+        "name": "D. Mazou-Sacko"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    }
+  ]
+}

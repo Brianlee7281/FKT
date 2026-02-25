@@ -1,0 +1,410 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "871464"
+  },
+  "errors": [],
+  "results": 18,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 157,
+        "name": "Bayern Munich",
+        "logo": "https://media.api-sports.io/football/teams/157.png"
+      },
+      "player": {
+        "id": 508,
+        "name": "K. Coman"
+      },
+      "assist": {
+        "id": 644,
+        "name": "L. Sané"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 192,
+        "name": "FC Koln",
+        "logo": "https://media.api-sports.io/football/teams/192.png"
+      },
+      "player": {
+        "id": 24794,
+        "name": "Benno Schmitz"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": 1
+      },
+      "team": {
+        "id": 157,
+        "name": "Bayern Munich",
+        "logo": "https://media.api-sports.io/football/teams/157.png"
+      },
+      "player": {
+        "id": 644,
+        "name": "Leroy Sané"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Var",
+      "detail": "Goal cancelled",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 192,
+        "name": "FC Koln",
+        "logo": "https://media.api-sports.io/football/teams/192.png"
+      },
+      "player": {
+        "id": 24794,
+        "name": "B. Schmitz"
+      },
+      "assist": {
+        "id": 202838,
+        "name": "D. Huseinbašić"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 192,
+        "name": "FC Koln",
+        "logo": "https://media.api-sports.io/football/teams/192.png"
+      },
+      "player": {
+        "id": 25362,
+        "name": "D. Selke"
+      },
+      "assist": {
+        "id": 181908,
+        "name": "J. Thielmann"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 192,
+        "name": "FC Koln",
+        "logo": "https://media.api-sports.io/football/teams/192.png"
+      },
+      "player": {
+        "id": 24803,
+        "name": "F. Kainz"
+      },
+      "assist": {
+        "id": 24970,
+        "name": "K. Schindler"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 157,
+        "name": "Bayern Munich",
+        "logo": "https://media.api-sports.io/football/teams/157.png"
+      },
+      "player": {
+        "id": 522,
+        "name": "T. Müller"
+      },
+      "assist": {
+        "id": 855,
+        "name": "João Cancelo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 157,
+        "name": "Bayern Munich",
+        "logo": "https://media.api-sports.io/football/teams/157.png"
+      },
+      "player": {
+        "id": 508,
+        "name": "K. Coman"
+      },
+      "assist": {
+        "id": 275,
+        "name": "E. Choupo-Moting"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 157,
+        "name": "Bayern Munich",
+        "logo": "https://media.api-sports.io/football/teams/157.png"
+      },
+      "player": {
+        "id": 542,
+        "name": "R. Gravenberch"
+      },
+      "assist": {
+        "id": 511,
+        "name": "L. Goretzka"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 192,
+        "name": "FC Koln",
+        "logo": "https://media.api-sports.io/football/teams/192.png"
+      },
+      "player": {
+        "id": 202838,
+        "name": "Denis Huseinbašić"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Var",
+      "detail": "Penalty confirmed",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 192,
+        "name": "FC Koln",
+        "logo": "https://media.api-sports.io/football/teams/192.png"
+      },
+      "player": {
+        "id": 1725,
+        "name": "Dejan Ljubičić"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 192,
+        "name": "FC Koln",
+        "logo": "https://media.api-sports.io/football/teams/192.png"
+      },
+      "player": {
+        "id": 1725,
+        "name": "D. Ljubičić"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Goal",
+      "detail": "Penalty",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 192,
+        "name": "FC Koln",
+        "logo": "https://media.api-sports.io/football/teams/192.png"
+      },
+      "player": {
+        "id": 1725,
+        "name": "D. Ljubičić"
+      },
+      "assist": {
+        "id": 19522,
+        "name": "K. Pedersen"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 192,
+        "name": "FC Koln",
+        "logo": "https://media.api-sports.io/football/teams/192.png"
+      },
+      "player": {
+        "id": 25380,
+        "name": "L. Maina"
+      },
+      "assist": {
+        "id": 203040,
+        "name": "T. Lemperle"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 157,
+        "name": "Bayern Munich",
+        "logo": "https://media.api-sports.io/football/teams/157.png"
+      },
+      "player": {
+        "id": 545,
+        "name": "N. Mazraoui"
+      },
+      "assist": {
+        "id": 181812,
+        "name": "J. Musiala"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 157,
+        "name": "Bayern Munich",
+        "logo": "https://media.api-sports.io/football/teams/157.png"
+      },
+      "player": {
+        "id": 511,
+        "name": "L. Goretzka"
+      },
+      "assist": {
+        "id": 270510,
+        "name": "M. Tel"
+      },
+      "type": "subst",
+      "detail": "Substitution 5",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 157,
+        "name": "Bayern Munich",
+        "logo": "https://media.api-sports.io/football/teams/157.png"
+      },
+      "player": {
+        "id": 181812,
+        "name": "J. Musiala"
+      },
+      "assist": {
+        "id": 510,
+        "name": "S. Gnabry"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 192,
+        "name": "FC Koln",
+        "logo": "https://media.api-sports.io/football/teams/192.png"
+      },
+      "player": {
+        "id": 181908,
+        "name": "Jan Thielmann"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    }
+  ]
+}
