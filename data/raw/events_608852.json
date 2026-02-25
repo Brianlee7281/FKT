@@ -1,0 +1,234 @@
+{
+  "get": "fixtures/events",
+  "parameters": {
+    "fixture": "608852"
+  },
+  "errors": [],
+  "results": 10,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 501,
+        "name": "Crotone",
+        "logo": "https://media.api-sports.io/football/teams/501.png"
+      },
+      "player": {
+        "id": 30560,
+        "name": "Luca Cigarini"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 498,
+        "name": "Sampdoria",
+        "logo": "https://media.api-sports.io/football/teams/498.png"
+      },
+      "player": {
+        "id": 30446,
+        "name": "Alex Ferrari"
+      },
+      "assist": {
+        "id": null,
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "comments": "Foul"
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 498,
+        "name": "Sampdoria",
+        "logo": "https://media.api-sports.io/football/teams/498.png"
+      },
+      "player": {
+        "id": 30463,
+        "name": "F. Quagliarella"
+      },
+      "assist": {
+        "id": 30462,
+        "name": "M. Gabbiadini"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 501,
+        "name": "Crotone",
+        "logo": "https://media.api-sports.io/football/teams/501.png"
+      },
+      "player": {
+        "id": 319,
+        "name": "S. Luperto"
+      },
+      "assist": {
+        "id": 30980,
+        "name": "V. Golemić"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 501,
+        "name": "Crotone",
+        "logo": "https://media.api-sports.io/football/teams/501.png"
+      },
+      "player": {
+        "id": 30768,
+        "name": "Pedro Pereira"
+      },
+      "assist": {
+        "id": 30939,
+        "name": "S. Di Carmine"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 501,
+        "name": "Crotone",
+        "logo": "https://media.api-sports.io/football/teams/501.png"
+      },
+      "player": {
+        "id": 30560,
+        "name": "L. Cigarini"
+      },
+      "assist": {
+        "id": 30994,
+        "name": "S. Molina"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 498,
+        "name": "Sampdoria",
+        "logo": "https://media.api-sports.io/football/teams/498.png"
+      },
+      "player": {
+        "id": 30453,
+        "name": "J. Jankto"
+      },
+      "assist": {
+        "id": 15908,
+        "name": "M. Damsgaard"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 501,
+        "name": "Crotone",
+        "logo": "https://media.api-sports.io/football/teams/501.png"
+      },
+      "player": {
+        "id": 30499,
+        "name": "K. Djidji"
+      },
+      "assist": {
+        "id": 20539,
+        "name": "E. Rivière"
+      },
+      "type": "subst",
+      "detail": "Substitution 4",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 498,
+        "name": "Sampdoria",
+        "logo": "https://media.api-sports.io/football/teams/498.png"
+      },
+      "player": {
+        "id": 30463,
+        "name": "F. Quagliarella"
+      },
+      "assist": {
+        "id": 213,
+        "name": "K. Baldé"
+      },
+      "type": "subst",
+      "detail": "Substitution 2",
+      "comments": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 498,
+        "name": "Sampdoria",
+        "logo": "https://media.api-sports.io/football/teams/498.png"
+      },
+      "player": {
+        "id": 30462,
+        "name": "M. Gabbiadini"
+      },
+      "assist": {
+        "id": 30753,
+        "name": "M. Léris"
+      },
+      "type": "subst",
+      "detail": "Substitution 3",
+      "comments": null
+    }
+  ]
+}

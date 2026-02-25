@@ -1,0 +1,43 @@
+# API 
+api_football:
+  base_url: "https://v3.football.api-sports.io"
+  # api_key is loaded from .env
+
+sportradar:
+  ws_url: "wss://api.sportradar.com/soccer/v4/stream/events"
+  # api_key is loaded from .env
+
+kalshi:
+  rest_url: "https://trading-api.kalshi.com/trade-api/v2"
+  ws_url: "wss://trading-api.kalshi.com/trade-api/ws/v2"
+  # api_key is loaded from .env
+
+# Phase 1 parameters
+phase1:
+  leagues: ["39", "140", "135", "78", "61"]   # PL, LaLiga, SerieA, Buli, L1
+  seasons: [2020, 2021, 2022, 2023, 2024]
+  num_time_bins: 6
+  regularization:
+    sigma_a: 1.0
+    lambda_reg: 0.01
+
+# Phase 3 parameters
+phase3:
+  mc_simulations: 50000
+  cooldown_seconds: 15
+  ob_anomaly_threshold: 0.05
+
+# Phase 4 parameters
+phase4:
+  entry_threshold: 0.02       # Minimum edge of 2¢
+  exit_threshold: 0.005       # 0.5¢
+  kelly_fraction: 0.25        # Quarter-Kelly
+  z_conservative: 1.645       # 90% conservative lower bound
+  risk:
+    order_cap: 0.03           # 3% per single order
+    match_cap: 0.05           # 5% per match
+    total_cap: 0.20           # 20% total
+
+# database
+database:
+  url: "postgresql://user:pass@localhost:5432/kalshi_trading"
