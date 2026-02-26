@@ -399,8 +399,8 @@ def load_phase1_params() -> Dict:
     with open(q_path) as f:
         q_data = json.load(f)
 
-    # pooled Q (전체 리그 통합)
-    Q = np.array(q_data["pooled"]["Q"])
+    # all Q (전체 리그 통합)
+    Q = np.array(q_data["all"]["Q"])
 
     # XGBoost 모델
     xgb_path = MODELS_DIR / "xgb_poisson.json"
@@ -955,6 +955,100 @@ def validate_pipeline(
     return df
 
 
+def validate_feature_consistency(
+    db_path: Path = DB_PATH,
+    n_samples: int = 100,
+) -> pd.DataFrame:
+    """Phase 1 vs Phase 2 μ̂ 일치 검증."""
+    logger.info(f"\n🔬 Phase 1 ↔ Phase 2 피처 일치 검증")
+    logger.info("=" * 60)
+
+    mu_path = MODELS_DIR / "mu_predictions.csv"
+    if not mu_path.exists():
+        logger.error("mu_predictions.csv 없음 — Phase 1 먼저 실행 필요")
+        return pd.DataFrame()
+
+    mu_p1 = pd.read_csv(mu_path)
+    logger.info(f"  Phase 1 μ̂: {len(mu_p1)}행 로드")
+
+    try:
+        params = load_phase1_params()
+        selected_features, _ = load_feature_mask()
+    except FileNotFoundError as e:
+        logger.error(f"Phase 1 파라미터 없음: {e}")
+        return pd.DataFrame()
+
+    conn = sqlite3.connect(str(db_path))
+    b = params["b"]
+    T_exp, alpha_1, alpha_2 = compute_expected_time(conn)
+    C_time = compute_C_time(b, T_exp, alpha_1, alpha_2)
+
+    matches = pd.read_sql_query("""
+        SELECT fixture_id, match_date,
+               home_team_id, away_team_id
+        FROM matches
+        WHERE home_goals_ft IS NOT NULL
+        ORDER BY match_date DESC
+        LIMIT ?
+    """, conn, params=(n_samples,))
+
+    results = []
+    for _, mrow in matches.iterrows():
+        fid = mrow["fixture_id"]
+        mdate = mrow["match_date"]
+        hid = mrow["home_team_id"]
+        aid = mrow["away_team_id"]
+
+        p1_home = mu_p1[(mu_p1["fixture_id"] == fid) & (mu_p1["is_home"] == 1)]
+        p1_away = mu_p1[(mu_p1["fixture_id"] == fid) & (mu_p1["is_home"] == 0)]
+        if p1_home.empty or p1_away.empty:
+            continue
+
+        mu_p1_H = p1_home.iloc[0]["mu_hat"]
+        mu_p1_A = p1_away.iloc[0]["mu_hat"]
+
+        h_roll, _ = get_team_rolling_stats(conn, hid, mdate)
+        a_roll, _ = get_team_rolling_stats(conn, aid, mdate)
+        if not h_roll or not a_roll:
+            continue
+
+        feat_h = assemble_features(h_roll, a_roll, 1, selected_features)
+        feat_a = assemble_features(a_roll, h_roll, 0, selected_features)
+
+        mu_p2_H = infer_mu(params["xgb_model"], feat_h, selected_features)
+        mu_p2_A = infer_mu(params["xgb_model"], feat_a, selected_features)
+
+        results.append({
+            "fixture_id": fid,
+            "mu_p1_H": round(mu_p1_H, 4), "mu_p2_H": round(mu_p2_H, 4),
+            "diff_H": round(abs(mu_p2_H - mu_p1_H), 4),
+            "mu_p1_A": round(mu_p1_A, 4), "mu_p2_A": round(mu_p2_A, 4),
+            "diff_A": round(abs(mu_p2_A - mu_p1_A), 4),
+        })
+
+    conn.close()
+    df = pd.DataFrame(results)
+    if df.empty:
+        logger.warning("비교 데이터 없음")
+        return df
+
+    max_diff = max(df["diff_H"].max(), df["diff_A"].max())
+    TOLERANCE = 0.05
+    n_mismatch = ((df["diff_H"] > TOLERANCE) | (df["diff_A"] > TOLERANCE)).sum()
+
+    logger.info(f"\n📊 일치 검증 결과 ({len(df)}경기):")
+    logger.info(f"  평균 diff 홈: {df['diff_H'].mean():.4f}")
+    logger.info(f"  평균 diff 어웨이: {df['diff_A'].mean():.4f}")
+    logger.info(f"  최대 차이: {max_diff:.4f}")
+
+    if n_mismatch == 0:
+        logger.info(f"  ✅ PASS: 전체 {len(df)}경기 일치 (허용 오차 {TOLERANCE})")
+    else:
+        logger.warning(f"  ⚠️  MISMATCH: {n_mismatch}/{len(df)}경기에서 차이 > {TOLERANCE}")
+        logger.warning(f"  최악 5개:\n{df.nlargest(5, 'diff_H').to_string(index=False)}")
+
+    return df
+
 # ═════════════════════════════════════════════════════════
 # CLI
 # ═════════════════════════════════════════════════════════
@@ -967,16 +1061,20 @@ def main():
     parser.add_argument("--no-api", action="store_true", help="API 호출 없이 DB만 사용")
     parser.add_argument("--bankroll", type=float, default=1000.0, help="초기 자본금")
     parser.add_argument("--db", type=str, default=str(DB_PATH))
+    parser.add_argument("--cross-check", action="store_true", help="Phase 1↔2 μ̂ 일치 검증")
 
     args = parser.parse_args()
     Path("logs").mkdir(exist_ok=True)
 
-    if args.validate:
+    if args.cross_check:
+        df = validate_feature_consistency(Path(args.db), args.samples)
+        if not df.empty:
+            print("\n" + df.to_string(index=False))
+    elif args.validate:
         df = validate_pipeline(Path(args.db), args.samples)
         if not df.empty:
             print("\n" + df[["date", "home", "away", "score", "mu_H", "mu_A",
                              "p_home", "p_draw", "p_away"]].to_string(index=False))
-
     elif args.fixture:
         state = initialize_match(
             args.fixture, Path(args.db),
