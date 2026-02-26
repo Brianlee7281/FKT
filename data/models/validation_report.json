@@ -1,0 +1,267 @@
+{
+  "verdict": {
+    "decision": "NO-GO \u274c",
+    "all_pass": false,
+    "criteria": {
+      "delta_signs": {
+        "pass": true,
+        "score": "6/6",
+        "details": {
+          "\u03b4_H(\u0394S=-1) > 0 (\ud648 \ub4a4\uc9d0\u2192\uacf5\uaca9\u2191)": true,
+          "\u03b4_H(\u0394S=+1) < 0 (\ud648 \uc55e\uc12c\u2192\uc218\ube44\u2193)": true,
+          "\u03b4_H(\u0394S\u2264-2) > \u03b4_H(\u0394S=-1) (\ud06c\uac8c \ub4a4\uc9c0\uba74 \ub354 \uacf5\uaca9)": true,
+          "\u03b4_H(\u0394S\u2265+2) < \u03b4_H(\u0394S=+1) (\ud06c\uac8c \uc55e\uc11c\uba74 \ub354 \uc218\ube44)": true,
+          "\u03b4_A(\u0394S=-1) < 0 (\uc5b4\uc6e8\uc774 \uc55e\uc12c\u2192\uc218\ube44\u2193)": true,
+          "\u03b4_A(\u0394S=+1) > 0 (\uc5b4\uc6e8\uc774 \ub4a4\uc9d0\u2192\uacf5\uaca9\u2191)": true
+        }
+      },
+      "lr_test": {
+        "pass": "True",
+        "p_value": 0.0
+      },
+      "brier_skill": {
+        "pass": true,
+        "values": [
+          0.14723210406083842,
+          0.1687299177173448,
+          0.16261459681951096
+        ],
+        "mean": 0.15952553953256474
+      },
+      "calibration": {
+        "pass": false,
+        "values": [
+          0.06452719710041585,
+          0.07621552207366258,
+          0.07466772908918161
+        ],
+        "mean": 0.07180348275442001
+      }
+    }
+  },
+  "delta_checks": {
+    "\u03b4_H(\u0394S=-1) > 0 (\ud648 \ub4a4\uc9d0\u2192\uacf5\uaca9\u2191)": true,
+    "\u03b4_H(\u0394S=+1) < 0 (\ud648 \uc55e\uc12c\u2192\uc218\ube44\u2193)": true,
+    "\u03b4_H(\u0394S\u2264-2) > \u03b4_H(\u0394S=-1) (\ud06c\uac8c \ub4a4\uc9c0\uba74 \ub354 \uacf5\uaca9)": true,
+    "\u03b4_H(\u0394S\u2265+2) < \u03b4_H(\u0394S=+1) (\ud06c\uac8c \uc55e\uc11c\uba74 \ub354 \uc218\ube44)": true,
+    "\u03b4_A(\u0394S=-1) < 0 (\uc5b4\uc6e8\uc774 \uc55e\uc12c\u2192\uc218\ube44\u2193)": true,
+    "\u03b4_A(\u0394S=+1) > 0 (\uc5b4\uc6e8\uc774 \ub4a4\uc9d0\u2192\uacf5\uaca9\u2191)": true
+  },
+  "lr_test": {
+    "loss_full": 126575.7109375,
+    "loss_restricted": 126926.1796875,
+    "LR_statistic": 700.9375,
+    "df": 8.0,
+    "p_value": 0.0,
+    "significant": "True"
+  },
+  "cv_folds": [
+    {
+      "val_season": 2022,
+      "metrics": {
+        "brier_score": 0.2010493670738792,
+        "baseline_brier": 0.23576094741754033,
+        "brier_skill": 0.14723210406083842,
+        "log_loss": 0.5874102658102321,
+        "mean_calibration_error": 0.06452719710041585,
+        "calibration_bins": [
+          {
+            "bin_center": 0.05,
+            "pred_mean": 0.07311354166666667,
+            "actual_mean": 0.03125,
+            "count": 96
+          },
+          {
+            "bin_center": 0.15000000000000002,
+            "pred_mean": 0.16178853989813244,
+            "actual_mean": 0.1273344651952462,
+            "count": 589
+          },
+          {
+            "bin_center": 0.25,
+            "pred_mean": 0.2574165432098766,
+            "actual_mean": 0.24320987654320989,
+            "count": 2430
+          },
+          {
+            "bin_center": 0.35000000000000003,
+            "pred_mean": 0.34900764508928567,
+            "actual_mean": 0.3247767857142857,
+            "count": 896
+          },
+          {
+            "bin_center": 0.45,
+            "pred_mean": 0.4549835974643423,
+            "actual_mean": 0.42393026941362916,
+            "count": 1262
+          },
+          {
+            "bin_center": 0.55,
+            "pred_mean": 0.544832410651717,
+            "actual_mean": 0.5536089698668535,
+            "count": 1427
+          },
+          {
+            "bin_center": 0.6500000000000001,
+            "pred_mean": 0.638934557235421,
+            "actual_mean": 0.7775377969762419,
+            "count": 463
+          },
+          {
+            "bin_center": 0.75,
+            "pred_mean": 0.7385662698412698,
+            "actual_mean": 0.9047619047619048,
+            "count": 126
+          },
+          {
+            "bin_center": 0.8500000000000001,
+            "pred_mean": 0.8351608695652173,
+            "actual_mean": 0.9565217391304348,
+            "count": 23
+          },
+          {
+            "bin_center": 0.95,
+            "pred_mean": 0.9410375,
+            "actual_mean": 1.0,
+            "count": 4
+          }
+        ],
+        "n_predictions": 7316
+      }
+    },
+    {
+      "val_season": 2023,
+      "metrics": {
+        "brier_score": 0.19723933205183972,
+        "baseline_brier": 0.23727466710966363,
+        "brier_skill": 0.1687299177173448,
+        "log_loss": 0.5786846541599936,
+        "mean_calibration_error": 0.07621552207366258,
+        "calibration_bins": [
+          {
+            "bin_center": 0.05,
+            "pred_mean": 0.07937061855670102,
+            "actual_mean": 0.020618556701030927,
+            "count": 97
+          },
+          {
+            "bin_center": 0.15000000000000002,
+            "pred_mean": 0.1609939097744361,
+            "actual_mean": 0.08270676691729323,
+            "count": 665
+          },
+          {
+            "bin_center": 0.25,
+            "pred_mean": 0.2549843833185448,
+            "actual_mean": 0.25510204081632654,
+            "count": 2254
+          },
+          {
+            "bin_center": 0.35000000000000003,
+            "pred_mean": 0.3501908088235295,
+            "actual_mean": 0.33088235294117646,
+            "count": 816
+          },
+          {
+            "bin_center": 0.45,
+            "pred_mean": 0.45531829608938545,
+            "actual_mean": 0.4264432029795158,
+            "count": 1074
+          },
+          {
+            "bin_center": 0.55,
+            "pred_mean": 0.5459260472201066,
+            "actual_mean": 0.5415079969535415,
+            "count": 1313
+          },
+          {
+            "bin_center": 0.6500000000000001,
+            "pred_mean": 0.6413167471819645,
+            "actual_mean": 0.7761674718196457,
+            "count": 621
+          },
+          {
+            "bin_center": 0.75,
+            "pred_mean": 0.737228431372549,
+            "actual_mean": 0.934640522875817,
+            "count": 153
+          },
+          {
+            "bin_center": 0.8500000000000001,
+            "pred_mean": 0.8360815789473685,
+            "actual_mean": 1.0,
+            "count": 19
+          }
+        ],
+        "n_predictions": 7012
+      }
+    },
+    {
+      "val_season": 2024,
+      "metrics": {
+        "brier_score": 0.1980042037065527,
+        "baseline_brier": 0.2364552844538599,
+        "brier_skill": 0.16261459681951096,
+        "log_loss": 0.5806753936496987,
+        "mean_calibration_error": 0.07466772908918161,
+        "calibration_bins": [
+          {
+            "bin_center": 0.05,
+            "pred_mean": 0.07559550561797752,
+            "actual_mean": 0.033707865168539325,
+            "count": 89
+          },
+          {
+            "bin_center": 0.15000000000000002,
+            "pred_mean": 0.15919322834645672,
+            "actual_mean": 0.09763779527559055,
+            "count": 635
+          },
+          {
+            "bin_center": 0.25,
+            "pred_mean": 0.25740089794130533,
+            "actual_mean": 0.24660534384581692,
+            "count": 2283
+          },
+          {
+            "bin_center": 0.35000000000000003,
+            "pred_mean": 0.3481911660777385,
+            "actual_mean": 0.3309776207302709,
+            "count": 849
+          },
+          {
+            "bin_center": 0.45,
+            "pred_mean": 0.4544269360269361,
+            "actual_mean": 0.40824915824915825,
+            "count": 1188
+          },
+          {
+            "bin_center": 0.55,
+            "pred_mean": 0.5461008021390374,
+            "actual_mean": 0.5821237585943468,
+            "count": 1309
+          },
+          {
+            "bin_center": 0.6500000000000001,
+            "pred_mean": 0.6419377976190477,
+            "actual_mean": 0.7678571428571429,
+            "count": 504
+          },
+          {
+            "bin_center": 0.75,
+            "pred_mean": 0.7347985294117647,
+            "actual_mean": 0.9044117647058824,
+            "count": 136
+          },
+          {
+            "bin_center": 0.8500000000000001,
+            "pred_mean": 0.8371759259259259,
+            "actual_mean": 1.0,
+            "count": 27
+          }
+        ],
+        "n_predictions": 7020
+      }
+    }
+  ]
+}
