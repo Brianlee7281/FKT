@@ -239,7 +239,7 @@ def process_match(
     red_cards: List[RawEvent] = []
 
     for evt in raw_events:
-        if evt.event_type == "Goal":
+        if evt.event_type == "Goal" and evt.event_detail != "Missed Penalty":
             goals.append(evt)
         elif evt.event_type == "Card" and evt.event_detail in ("Red Card", "Second Yellow card"):
             red_cards.append(evt)
@@ -383,6 +383,13 @@ def process_match(
         if t_end <= current_t:
             return   # 길이 0인 구간은 건너뜀
 
+        # T_m을 넘는 이벤트가 있을 수 있음 (추가시간 골 등)
+        # → T_m을 이벤트 시각까지 확장
+        nonlocal T_m, basis_boundaries
+        if t_end > T_m:
+            T_m = t_end
+            basis_boundaries[-1] = T_m
+
         # 구간이 기저함수 경계를 걸치면 쪼개야 한다
         t = current_t
         while t < t_end:
@@ -391,17 +398,20 @@ def process_match(
             bin_end = basis_boundaries[bi + 1] if bi + 1 < len(basis_boundaries) else T_m
             seg_end = min(t_end, bin_end)
 
-            if seg_end > t:
-                intervals.append(Interval(
-                    fixture_id=fixture_id,
-                    t_start=t,
-                    t_end=seg_end,
-                    state_X=state_X,
-                    delta_S=delta_S,
-                    basis_idx=bi,
-                    is_halftime=False,
-                    T_m=T_m,
-                ))
+            # 진행 불가 방지 (부동소수점 오차 등)
+            if seg_end <= t:
+                break
+
+            intervals.append(Interval(
+                fixture_id=fixture_id,
+                t_start=t,
+                t_end=seg_end,
+                state_X=state_X,
+                delta_S=delta_S,
+                basis_idx=bi,
+                is_halftime=False,
+                T_m=T_m,
+            ))
             t = seg_end
 
         current_t = t_end
@@ -438,13 +448,9 @@ def process_match(
             close_interval(t)
 
             # 2. 골 점 이벤트 기록 — ΔS는 직전 값! (인과관계)
-            #    자책골 처리: API-Football에서 "Own Goal"의 team_id는
-            #    자책골을 넣은 선수의 팀 → 실제 득점은 상대팀
-            if evt.detail == "Own Goal":
-                # 자책골: team_id의 팀이 자책 → 상대팀 득점
-                actual_scoring_team = "away" if is_home_team(evt.team_id) else "home"
-            else:
-                actual_scoring_team = "home" if is_home_team(evt.team_id) else "away"
+            #    API-Football에서 골 이벤트의 team_id는 자책골 포함 항상
+            #    득점을 인정받는 팀(수혜팀)을 가리킨다. 특수 처리 불필요.
+            actual_scoring_team = "home" if is_home_team(evt.team_id) else "away"
 
             goal_events_out.append(GoalEvent(
                 fixture_id=fixture_id,
