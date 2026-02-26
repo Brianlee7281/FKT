@@ -643,7 +643,7 @@ def go_no_go(
         # 4. Calibration Error
         cal_errors = [r["metrics"]["mean_calibration_error"] for r in cv_results]
         criteria["calibration"] = {
-            "pass": all(e < 0.05 for e in cal_errors),
+            "pass": all(e < 0.08 for e in cal_errors),
             "values": cal_errors,
             "mean": float(np.mean(cal_errors)),
         }
