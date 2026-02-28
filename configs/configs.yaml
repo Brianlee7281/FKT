@@ -3,9 +3,10 @@ api_football:
   base_url: "https://v3.football.api-sports.io"
   # api_key is loaded from .env
 
-sportradar:
-  ws_url: "wss://api.sportradar.com/soccer/v4/stream/events"
-  # api_key is loaded from .env
+goalserve:
+  base_url: "http://www.goalserve.com/getfeed"
+  poll_interval_seconds: 3
+  # api_key is loaded from .env (GOALSERVE_API_KEY)
 
 kalshi:
   rest_url: "https://trading-api.kalshi.com/trade-api/v2"
@@ -21,11 +22,17 @@ phase1:
     sigma_a: 1.0
     lambda_reg: 0.01
 
+
 # Phase 3 parameters
 phase3:
   mc_simulations: 50000
   cooldown_seconds: 15
   ob_anomaly_threshold: 0.05
+  goalserve_poll_interval: 3          # Goalserve 폴링 주기 (초)
+  stoppage_detection:
+    first_half_threshold: 45          # minute > 45 → 전반 추가시간
+    second_half_threshold: 90         # minute > 90 → 후반 추가시간
+    rolling_horizon: 1.5              # Phase C: T = t + 1.5분
 
 # Phase 4 parameters
 phase4:
