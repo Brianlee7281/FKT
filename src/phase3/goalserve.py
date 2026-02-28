@@ -240,7 +240,7 @@ class GoalserveSource(EventSource):
 
         # ── 2. 하프타임 감지 ─────────────────────────
 
-        if status == "HT" and not self._halftime_sent:
+        if status == "HT" and not self._halftime_sent and not self._second_half_sent:
             self._halftime_sent = True
             minute = self._parse_minute_from_timer(self._prev_status or "45")
             yield NormalizedEvent(

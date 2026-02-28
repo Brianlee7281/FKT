@@ -67,6 +67,7 @@ async def watch_match(match_id: str):
     print(f"\n{'─'*50}\n")
 
     last_minute = ""
+    in_second_half = False
     try:
         while not source._match_end_sent:
             match_data = await source._poll_match()
@@ -77,10 +78,14 @@ async def watch_match(match_id: str):
                 home_g = match_data.get("localteam", {}).get("@goals", "0")
                 away_g = match_data.get("visitorteam", {}).get("@goals", "0")
 
-                # 분이 바뀌었을 때만 표시
-                if timer != last_minute:
+                # 후반 시작 추적
+                if in_second_half is False and source._second_half_sent:
+                    in_second_half = True
+
+                # 분이 바뀌었을 때만 표시 (빈/무효 타이머 무시)
+                if timer and timer not in ("", "?") and timer != last_minute:
                     tag = ""
-                    if status == "HT":
+                    if status == "HT" and not in_second_half:
                         tag = " ⏸ 하프타임"
                     elif status == "FT":
                         tag = " 🏁 경기종료"
