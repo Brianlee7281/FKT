@@ -133,11 +133,15 @@ class EdgeDetector:
         entry_threshold: float = 0.02,
         fee_multiplier: float = TAKER_FEE_MULTIPLIER,
         min_depth: float = 20.0,
+        min_price_cents: int = 10,
+        max_price_cents: int = 90,
     ):
         self.z = z
         self.entry_threshold = entry_threshold
         self.fee_multiplier = fee_multiplier
         self.min_depth = min_depth
+        self.min_price_cents = min_price_cents    # 10¢ 미만 거래 금지
+        self.max_price_cents = max_price_cents    # 90¢ 초과 거래 금지
 
     # ─── 핵심 계산 ─────────────────────────────────
 
@@ -243,14 +247,18 @@ class EdgeDetector:
         # ── Buy Yes 평가 ─────────────────────────
         ev_yes = None
         if snapshot.yes_ask_cents is not None and snapshot.yes_ask_cents > 0:
-            ask_price = snapshot.yes_ask_cents / 100.0
-            ev_yes = self.ev_buy_yes(p_cons, ask_price)
+            # 가격 범위 필터: 너무 싸거나 비싼 마켓은 제외
+            if self.min_price_cents <= snapshot.yes_ask_cents <= self.max_price_cents:
+                ask_price = snapshot.yes_ask_cents / 100.0
+                ev_yes = self.ev_buy_yes(p_cons, ask_price)
 
         # ── Buy No 평가 ──────────────────────────
         ev_no = None
         if snapshot.yes_bid_cents is not None and snapshot.yes_bid_cents > 0:
-            no_ask_price = (100 - snapshot.yes_bid_cents) / 100.0
-            ev_no = self.ev_buy_no(p_cons, no_ask_price)
+            no_ask_cents = 100 - snapshot.yes_bid_cents
+            if self.min_price_cents <= no_ask_cents <= self.max_price_cents:
+                no_ask_price = no_ask_cents / 100.0
+                ev_no = self.ev_buy_no(p_cons, no_ask_price)
 
         # ── 양방향 중 더 큰 쪽 선택 ──────────────
         best_dir = Direction.HOLD

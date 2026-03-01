@@ -57,15 +57,15 @@ def test_fractional_kelly():
 
 
 def test_contracts_calculation():
-    """T6: 계약 수 변환."""
+    """T6: 계약 수 변환 (max_contracts 적용)."""
     ps = PositionSizer(kelly_fraction=0.25)
     r = ps.size(ev_adj=0.05, p_kalshi=0.45, bankroll=10000)
     # dollar = 0.0505 × 10000 = 505
     # but Layer 1: max_order = 0.03 × 10000 = 300 → clamped
-    # contracts = floor(300 / 0.45) = 666
-    assert r.contracts == 666
-    assert r.clamped_by == "layer1"
-    print(f"✅ T6: {r.contracts} contracts (Layer 1 clamped)")
+    # contracts = floor(300 / 0.45) = 666 → max_contracts=500 → 500
+    assert r.contracts == 500
+    assert r.clamped_by in ("layer1", "max_contracts")
+    print(f"✅ T6: {r.contracts} contracts (clamped: {r.clamped_by})")
 
 
 def test_layer1_clamp():

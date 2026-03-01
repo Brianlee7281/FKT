@@ -463,3 +463,40 @@ class GoalserveSource(EventSource):
                     })
 
         return results
+
+    @staticmethod
+    def find_all_matches(data: Dict) -> List[Dict]:
+        """
+        Goalserve 응답에서 모든 경기를 찾는다 (FT 포함).
+
+        Returns:
+            경기 데이터 리스트
+        """
+        results = []
+        categories = data.get("scores", {}).get("category", [])
+        if isinstance(categories, dict):
+            categories = [categories]
+
+        for cat in categories:
+            league = cat.get("@name", "")
+            matches_container = cat.get("matches")
+            if not matches_container or not isinstance(matches_container, dict):
+                continue
+            matches = matches_container.get("match", [])
+            if matches is None:
+                continue
+            if isinstance(matches, dict):
+                matches = [matches]
+            for m in matches:
+                status = m.get("@status", "")
+                results.append({
+                    "league": league,
+                    "match_id": m.get("@id", ""),
+                    "home": m.get("localteam", {}).get("@name", ""),
+                    "away": m.get("visitorteam", {}).get("@name", ""),
+                    "score": f"{m.get('localteam', {}).get('@goals', 0)}-{m.get('visitorteam', {}).get('@goals', 0)}",
+                    "status": status,
+                    "timer": m.get("@timer", ""),
+                })
+
+        return results

@@ -172,6 +172,8 @@ class MatchSession:
         """
         경기 종료 후 정산 및 사후 분석.
 
+        모든 거래(조기 청산 + 만기 정산)를 PostMatch에 반영.
+
         Args:
             outcomes:  {kalshi_ticker: True(Yes승)/False(No승)}
             analyzer:  PostMatchAnalyzer (None이면 정산만)
@@ -182,7 +184,7 @@ class MatchSession:
         if self.state == SessionState.SETTLED:
             return None
 
-        # ExecutionEngine 정산
+        # ExecutionEngine 정산 (잔여 포지션)
         settle_records = self.tick_router.engine.settle_match(
             self.match_id, outcomes,
         )
@@ -200,34 +202,60 @@ class MatchSession:
         if not analyzer:
             return None
 
-        # TradeOutcome 변환
-        trade_outcomes = []
-        for rec in settle_records:
-            trade_outcomes.append(TradeOutcome(
-                ticker=rec.ticker,
-                match_id=self.match_id,
-                direction=rec.direction,
-                entry_price=rec.fill_price_cents / 100.0 if rec.fill_price_cents else 0,
-                p_true_at_entry=rec.p_true,
-                ev_adj_at_entry=rec.ev_adj,
-                outcome=1 if outcomes.get(rec.ticker, False) else 0,
-                pnl=rec.pnl,
-                contracts=rec.quantity_filled,
-            ))
+        # ── 전체 거래 기록에서 TradeOutcome 구성 ──
+        # trade_log에서 이 경기의 ENTRY만 추출
+        trade_log = self.tick_router.engine.trade_log
+        entries = [
+            t for t in trade_log
+            if t.match_id == self.match_id and t.order_type == "ENTRY"
+        ]
 
-        # 진입 로그에서 추가 정보 보충
-        for entry_rec in self.tick_router.engine.trade_log:
-            if (entry_rec.match_id == self.match_id and
-                    entry_rec.order_type == "ENTRY" and
-                    entry_rec.quantity_filled > 0):
-                # 해당 ticker의 TradeOutcome 찾아서 보충
-                for to in trade_outcomes:
-                    if to.ticker == entry_rec.ticker and to.entry_price == 0:
-                        to.entry_price = entry_rec.fill_price_cents / 100.0
-                        to.fill_price = entry_rec.fill_price_cents / 100.0
-                        to.signal_price = entry_rec.p_kalshi
-                        to.p_true_at_entry = entry_rec.p_true
-                        to.ev_adj_at_entry = entry_rec.ev_adj
+        # ENTRY별로 대응하는 EXIT/SETTLEMENT 찾기
+        exits = [
+            t for t in trade_log
+            if t.match_id == self.match_id and t.order_type != "ENTRY"
+        ]
+
+        # ticker별 exit 매핑 (같은 ticker의 exit들을 순서대로)
+        from collections import defaultdict
+        exit_by_ticker: Dict[str, list] = defaultdict(list)
+        for ex in exits:
+            exit_by_ticker[ex.ticker].append(ex)
+
+        trade_outcomes = []
+        used_exit_idx: Dict[str, int] = defaultdict(int)
+
+        for entry_rec in entries:
+            if entry_rec.quantity_filled <= 0:
+                continue
+
+            ticker = entry_rec.ticker
+            outcome_val = 1 if outcomes.get(ticker, False) else 0
+
+            # 대응 exit 찾기
+            exit_list = exit_by_ticker.get(ticker, [])
+            idx = used_exit_idx[ticker]
+            exit_rec = exit_list[idx] if idx < len(exit_list) else None
+            used_exit_idx[ticker] = idx + 1
+
+            # 실현 P&L = entry P&L + exit P&L
+            entry_pnl = entry_rec.pnl  # 음수 (비용)
+            exit_pnl = exit_rec.pnl if exit_rec else 0.0
+            total_pnl = entry_pnl + exit_pnl
+
+            trade_outcomes.append(TradeOutcome(
+                ticker=ticker,
+                match_id=self.match_id,
+                direction=entry_rec.direction,
+                entry_price=entry_rec.fill_price_cents / 100.0 if entry_rec.fill_price_cents else 0,
+                fill_price=entry_rec.fill_price_cents / 100.0 if entry_rec.fill_price_cents else 0,
+                signal_price=entry_rec.p_kalshi,
+                p_true_at_entry=entry_rec.p_true,
+                ev_adj_at_entry=entry_rec.ev_adj,
+                outcome=outcome_val,
+                pnl=total_pnl,
+                contracts=entry_rec.quantity_filled,
+            ))
 
         return analyzer.analyze_match(self.match_id, trade_outcomes)
 

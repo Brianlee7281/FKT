@@ -72,12 +72,14 @@ class PositionSizer:
         match_cap: float = 0.05,
         total_cap: float = 0.20,
         min_contracts: int = 1,
+        max_contracts: int = 500,
     ):
         self.kelly_fraction = kelly_fraction
         self.order_cap = order_cap
         self.match_cap = match_cap
         self.total_cap = total_cap
         self.min_contracts = min_contracts
+        self.max_contracts = max_contracts  # 단일 주문 최대 계약 수
 
     # ─── Kelly 계산 ───────────────────────────────
 
@@ -203,6 +205,12 @@ class PositionSizer:
         # 계약당 비용 = p_kalshi (달러)
         # 계약 수 = floor(dollar_amount / p_kalshi)
         contracts = int(dollar_amount / p_kalshi)
+
+        # ── 최대 계약 수 클램핑 ──────────────────
+        if contracts > self.max_contracts:
+            contracts = self.max_contracts
+            if not result.clamped_by:
+                result.clamped_by = "max_contracts"
 
         if contracts < self.min_contracts:
             result.reason = f"below_min({contracts}<{self.min_contracts})"
