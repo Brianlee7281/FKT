@@ -93,6 +93,9 @@ class GoalserveSource(EventSource):
         self._home_team_name: str = ""
         self._away_team_name: str = ""
 
+        # 초기 상태 (mid-game join 시 엔진에 전달)
+        self.initial_state: Optional[Dict] = None
+
     # ─── EventSource 인터페이스 ─────────────────────────
 
     async def connect(self, match_id: str) -> None:
@@ -122,9 +125,20 @@ class GoalserveSource(EventSource):
             # 기존 이벤트 마킹 (이미 발생한 이벤트는 무시)
             self._seed_existing_events(match_data)
 
+            # 초기 상태 저장 (mid-game join 시 엔진에 전달)
+            self.initial_state = self._extract_initial_state(match_data)
+
             logger.info(
                 f"GoalserveSource: {self._home_team_name} vs {self._away_team_name}"
             )
+            if self.initial_state:
+                s = self.initial_state
+                logger.info(
+                    f"GoalserveSource: 초기 상태 "
+                    f"{s['score_home']}-{s['score_away']} "
+                    f"{s['minute']:.0f}' ({s['phase']}) "
+                    f"X={s['X']}"
+                )
         else:
             logger.warning(f"GoalserveSource: match_id={match_id} 못 찾음")
 
@@ -410,6 +424,75 @@ class GoalserveSource(EventSource):
                 pass
         if status == "HT":
             self._halftime_sent = True
+
+    def _extract_initial_state(self, match_data: Dict) -> Dict:
+        """
+        connect 시점의 경기 상태를 추출.
+
+        Returns:
+            {
+                "score_home": int,
+                "score_away": int,
+                "minute": float,
+                "phase": str,  # "FIRST_HALF", "HALFTIME", "SECOND_HALF", "FINISHED"
+                "X": int,      # 마르코프 상태 (퇴장 기반)
+            }
+        """
+        score_home = int(match_data.get("localteam", {}).get("@goals", "0"))
+        score_away = int(match_data.get("visitorteam", {}).get("@goals", "0"))
+        status = match_data.get("@status", "")
+        timer = match_data.get("@timer", "0")
+
+        # 분 계산
+        minute = self._parse_minute_from_timer(timer)
+
+        # 페이즈 결정
+        if status == "FT":
+            phase = "FINISHED"
+        elif status == "HT":
+            phase = "HALFTIME"
+            minute = 45.0
+        elif minute > 45:
+            phase = "SECOND_HALF"
+        else:
+            phase = "FIRST_HALF"
+
+        # 마르코프 상태 X (퇴장 카운트)
+        # 0=11v11, 1=홈퇴장(10v11), 2=원정퇴장(11v10), 3=양쪽퇴장(10v10)
+        home_reds = 0
+        away_reds = 0
+        events_data = match_data.get("events")
+        if events_data:
+            event_list = events_data.get("event", [])
+            if isinstance(event_list, dict):
+                event_list = [event_list]
+            for evt in event_list:
+                if evt.get("@type") in ("redcard", "yellowred"):
+                    team = evt.get("@team", "")
+                    if team == "localteam":
+                        home_reds += 1
+                    elif team == "visitorteam":
+                        away_reds += 1
+
+        # X 계산: 간단한 매핑
+        if home_reds > 0 and away_reds > 0:
+            X = 3
+        elif home_reds > 0:
+            X = 1
+        elif away_reds > 0:
+            X = 2
+        else:
+            X = 0
+
+        return {
+            "score_home": score_home,
+            "score_away": score_away,
+            "minute": minute,
+            "phase": phase,
+            "X": X,
+            "home_reds": home_reds,
+            "away_reds": away_reds,
+        }
 
     @staticmethod
     def _parse_minute_from_timer(timer_str: str) -> float:

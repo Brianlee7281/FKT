@@ -150,9 +150,14 @@ def make_default_engine_params(
     T_exp = 95.0
     basis_bounds = build_basis_bounds(first_half_end=47.0, T_m=T_exp)
 
-    # a_H, a_A — 기저강도 (b와 결합하여 프리매치 기대득점 생성)
-    a_H = mu_H_prematch / (T_exp / 6 * np.sum(b))
-    a_A = mu_A_prematch / (T_exp / 6 * np.sum(b))
+    # a_H, a_A — 기저강도 역산
+    # 공식: μ_H = Σ_ℓ Δτ_ℓ · exp(a_H + b_ℓ)  (at t=0, X=0, ΔS=0)
+    #       = exp(a_H) · C_time
+    #       → a_H = ln(μ_H / C_time)
+    seg_durations = np.diff(basis_bounds)  # [15, 15, 17, 15, 15, 18]
+    C_time = sum(d * np.exp(b[i]) for i, d in enumerate(seg_durations))
+    a_H = np.log(mu_H_prematch / C_time)
+    a_A = np.log(mu_A_prematch / C_time)
 
     return EngineParams(
         a_H=a_H,

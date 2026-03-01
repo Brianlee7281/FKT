@@ -204,6 +204,32 @@ class LiveTradingEngine:
         self._mu_A = params.mu_A_prematch
         self._pricing: Optional[PricingResult] = None
 
+        # 초기 상태 오버라이드 (mid-game join 용)
+        self._initial_state: Optional[Dict] = None
+
+    def set_initial_state(self, state: Dict) -> None:
+        """
+        Mid-game join 시 초기 상태 설정.
+
+        run() 호출 전에 실행해야 함.
+
+        Args:
+            state: {
+                "score_home": int,
+                "score_away": int,
+                "minute": float,
+                "phase": str,  # "FIRST_HALF", "HALFTIME", "SECOND_HALF"
+                "X": int,      # 마르코프 상태
+            }
+        """
+        self._initial_state = state
+        logger.info(
+            f"엔진 초기 상태 설정: "
+            f"{state.get('score_home',0)}-{state.get('score_away',0)} "
+            f"{state.get('minute',0):.0f}' ({state.get('phase','?')}) "
+            f"X={state.get('X',0)}"
+        )
+
     async def run(self, match_id: str) -> List[TickSnapshot]:
         """
         엔진 실행. 경기 종료까지 틱 루프를 돌린다.
@@ -218,6 +244,11 @@ class LiveTradingEngine:
 
         # EventSource 연결
         await self.source.connect(match_id)
+
+        # GoalserveSource의 초기 상태 자동 적용 (mid-game join)
+        if self._initial_state is None and hasattr(self.source, 'initial_state'):
+            if self.source.initial_state:
+                self.set_initial_state(self.source.initial_state)
 
         try:
             # 두 태스크를 동시에 실행
@@ -259,7 +290,27 @@ class LiveTradingEngine:
     async def _tick_loop(self) -> None:
         """매 틱 메인 사이클."""
 
-        self.state.engine_phase = "FIRST_HALF"
+        # 초기 상태 적용 (mid-game join)
+        if self._initial_state:
+            s = self._initial_state
+            self.state.S_H = s.get("score_home", 0)
+            self.state.S_A = s.get("score_away", 0)
+            self.state.delta_S = self.state.S_H - self.state.S_A
+            self.state.X = s.get("X", 0)
+            self.state.current_minute = s.get("minute", 0.0)
+            self.state.engine_phase = s.get("phase", "FIRST_HALF")
+
+            # 추가시간 매니저도 동기화
+            if self.state.current_minute > 45:
+                self.stoppage.reset_for_second_half()
+
+            logger.info(
+                f"Mid-game join: {self.state.S_H}-{self.state.S_A} "
+                f"{self.state.current_minute:.0f}' "
+                f"({self.state.engine_phase}) X={self.state.X}"
+            )
+        else:
+            self.state.engine_phase = "FIRST_HALF"
 
         while self.state.engine_phase != "FINISHED":
             # ① 이벤트 하나 가져오기 (이벤트 기반 시간 전진)
