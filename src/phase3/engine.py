@@ -123,6 +123,9 @@ class EngineParams:
     # 쿨다운
     cooldown_seconds: float = 15.0
 
+    # 틱 간격 (데이터 폴링에 맞춤, 기본 3초)
+    tick_interval: float = 3.0
+
     @classmethod
     def from_phase2(cls, state) -> EngineParams:
         """
@@ -313,14 +316,16 @@ class LiveTradingEngine:
             self.state.engine_phase = "FIRST_HALF"
 
         while self.state.engine_phase != "FINISHED":
-            # ① 이벤트 하나 가져오기 (이벤트 기반 시간 전진)
-            event = await self._get_next_event()
-
-            # ② 이벤트 처리
-            event_str = None
-            if event:
+            # ① 큐에 쌓인 이벤트 모두 처리 (이벤트 기반 시간 전진)
+            events_this_tick = []
+            while True:
+                event = await self._get_next_event()
+                if event is None:
+                    break
                 self._process_event(event)
-                event_str = str(event)
+                events_this_tick.append(str(event))
+
+            event_str = " | ".join(events_this_tick) if events_this_tick else None
 
             # ③ 시간 & 계산 (활성 플레이 중일 때)
             if self.state.engine_phase in ("FIRST_HALF", "SECOND_HALF"):
@@ -377,17 +382,18 @@ class LiveTradingEngine:
             if self.state.engine_phase == "FINISHED":
                 break
 
-            await asyncio.sleep(0)
+            # 데이터 폴링 간격에 맞춰 대기 (기본 3초)
+            # 이벤트가 있으면 _get_next_event에서 즉시 반환되므로
+            # 실질적으로 이벤트 직후에는 빠르게 반응
+            await asyncio.sleep(self.params.tick_interval)
 
     # ─── 이벤트 처리 ──────────────────────────────────
 
     async def _get_next_event(self) -> Optional[NormalizedEvent]:
-        """큐에서 이벤트 하나를 가져온다. 없으면 잠시 대기."""
+        """큐에서 이벤트 하나를 가져온다. 없으면 즉시 반환."""
         try:
-            return await asyncio.wait_for(
-                self._event_queue.get(), timeout=0.1
-            )
-        except asyncio.TimeoutError:
+            return self._event_queue.get_nowait()
+        except asyncio.QueueEmpty:
             return None
 
     def _process_event(self, event: NormalizedEvent) -> None:

@@ -24,6 +24,7 @@ def test_edge_erosion_close():
     d = mgr.evaluate_position(
         pos, p_true=0.46, sigma_mc=0.0,
         yes_bid_cents=43, yes_ask_cents=45, z=0.0,
+        current_tick=100,
     )
     assert d.action == ExitAction.CLOSE
     assert "edge_erosion" in d.trigger
@@ -41,6 +42,7 @@ def test_edge_erosion_hold():
     d = mgr.evaluate_position(
         pos, p_true=0.60, sigma_mc=0.0,
         yes_bid_cents=43, yes_ask_cents=45, z=0.0,
+        current_tick=100,
     )
     assert d.action == ExitAction.HOLD
     print("✅ T2: Strong edge → HOLD")
@@ -57,6 +59,7 @@ def test_edge_reversal_buy_yes():
     d = mgr.evaluate_position(
         pos, p_true=0.40, sigma_mc=0.0,
         yes_bid_cents=50, yes_ask_cents=55, z=0.0,
+        current_tick=100,
     )
     assert d.action == ExitAction.CLOSE
     assert "edge_reversal" in d.trigger
@@ -76,6 +79,7 @@ def test_edge_reversal_buy_no():
     d = mgr.evaluate_position(
         pos, p_true=0.80, sigma_mc=0.0,
         yes_bid_cents=30, yes_ask_cents=75, z=0.0,
+        current_tick=100,
     )
     assert d.action == ExitAction.CLOSE
     assert "edge_reversal" in d.trigger
@@ -94,6 +98,7 @@ def test_no_reversal():
     d = mgr.evaluate_position(
         pos, p_true=0.55, sigma_mc=0.0,
         yes_bid_cents=50, yes_ask_cents=50, z=0.0,
+        current_tick=100,
     )
     assert d.action == ExitAction.HOLD
     print("✅ T5: No reversal, healthy edge → HOLD")
@@ -131,6 +136,7 @@ def test_expiry_hold():
         pos, p_true=0.70, sigma_mc=0.0,
         yes_bid_cents=60, yes_ask_cents=65,
         minute=88, z=0.0,
+        current_tick=100,
     )
     assert d.action == ExitAction.HOLD
     print("✅ T7: Expiry hold (E[Hold] > E[Exit])")
@@ -159,6 +165,7 @@ def test_halftime_no_exit():
         pos, p_true=0.20, sigma_mc=0.0,
         yes_bid_cents=50, yes_ask_cents=55,
         engine_phase=EnginePhase.HALFTIME, z=0.0,
+        current_tick=100,
     )
     assert d.action == ExitAction.HOLD
     assert "halftime" in d.trigger
@@ -176,6 +183,7 @@ def test_finished_hold_to_settlement():
         pos, p_true=0.20, sigma_mc=0.0,
         yes_bid_cents=10, yes_ask_cents=15,
         engine_phase=EnginePhase.FINISHED, z=0.0,
+        current_tick=100,
     )
     assert d.action == ExitAction.HOLD
     assert "settlement" in d.trigger
@@ -224,6 +232,7 @@ def test_conservative_p_applied():
         pos, p_true=0.50, sigma_mc=0.02,
         yes_bid_cents=43, yes_ask_cents=45,
         z=1.645,
+        current_tick=100,
     )
     assert d.action == ExitAction.CLOSE
     assert "edge_erosion" in d.trigger
@@ -245,7 +254,7 @@ def test_evaluate_all():
         "B": {"p_true": 0.70, "sigma_mc": 0.0,
                "yes_bid_cents": 60, "yes_ask_cents": 65},
     }
-    decisions = mgr.evaluate_all(positions, market_data, z=0.0)
+    decisions = mgr.evaluate_all(positions, market_data, z=0.0, current_tick=100)
     assert len(decisions) == 2
     # A: edge eroded (EV ≈ 0.46-0.45-fee < 0.5¢)
     assert decisions[0].action == ExitAction.CLOSE

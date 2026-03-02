@@ -232,7 +232,7 @@ class PaperLogger:
             "type": trade_type,
             "ticker": getattr(record, "ticker", ""),
             "direction": getattr(record, "direction", ""),
-            "contracts": getattr(record, "contracts", 0),
+            "contracts": getattr(record, "quantity_filled", 0),
             "price": getattr(record, "fill_price_cents", 0),
             "pnl": getattr(record, "pnl", 0.0),
         })

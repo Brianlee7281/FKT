@@ -91,6 +91,7 @@ class TickRouter:
         detector:  EdgeDetector (엣지 탐색)
         sizer:     PositionSizer (Kelly + 리스크)
         exit_mgr:  ExitManager (청산 판정)
+        entry_cooldown_after_exit: 청산 후 재진입 금지 틱 수 (기본 100 ≈ 5분)
     """
 
     def __init__(
@@ -99,12 +100,15 @@ class TickRouter:
         detector: EdgeDetector,
         sizer: PositionSizer,
         exit_mgr: ExitManager,
+        entry_cooldown_after_exit: int = 100,
     ):
         self.engine = engine
         self.detector = detector
         self.sizer = sizer
         self.exit_mgr = exit_mgr
         self._tick_count = 0
+        self.entry_cooldown_after_exit = entry_cooldown_after_exit
+        self._exit_cooldown: Dict[str, int] = {}  # ticker → 재진입 허용 틱
 
     def on_tick(
         self,
@@ -186,6 +190,13 @@ class TickRouter:
             if ticker in self.engine.positions:
                 continue
 
+            # 재진입 쿨다운 체크
+            if ticker in self._exit_cooldown:
+                if self._tick_count < self._exit_cooldown[ticker]:
+                    continue
+                else:
+                    del self._exit_cooldown[ticker]  # 쿨다운 만료
+
             # MarketSnapshot 구성
             ms = MarketSnapshot(
                 ticker=ticker,
@@ -226,6 +237,9 @@ class TickRouter:
             try:
                 record = self.engine.process_entry(signal, sizing, match_id)
                 result.entries.append(record)
+                # entry_tick 설정 (min_hold 체크용)
+                if ticker in self.engine.positions:
+                    self.engine.positions[ticker].entry_tick = self._tick_count
                 logger.info(
                     f"ENTRY [{ticker}] {signal.direction.value} "
                     f"{sizing.contracts}x EV={signal.ev_adj*100:.1f}¢"
@@ -273,15 +287,21 @@ class TickRouter:
                 yes_ask_cents=ob.yes_ask_cents if ob else None,
                 minute=int(minute),
                 engine_phase=engine_phase,
+                current_tick=self._tick_count,
             )
 
             if decision.action == ExitAction.CLOSE:
                 try:
                     record = self.engine.process_exit(decision, pos)
                     result.exits.append(record)
+                    # 재진입 쿨다운 설정
+                    self._exit_cooldown[ticker] = (
+                        self._tick_count + self.entry_cooldown_after_exit
+                    )
                     logger.info(
                         f"EXIT [{ticker}] {decision.trigger} "
-                        f"pnl=${record.pnl:+.2f}"
+                        f"pnl=${record.pnl:+.2f} "
+                        f"(re-entry blocked for {self.entry_cooldown_after_exit} ticks)"
                     )
                 except Exception as e:
                     result.errors.append(f"exit_error({ticker}): {e}")

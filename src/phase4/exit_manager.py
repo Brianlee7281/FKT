@@ -68,6 +68,7 @@ class OpenPosition:
     ev_at_entry: float = 0.0
     match_id: str = ""
     market_type: str = ""
+    entry_tick: int = 0  # 진입 시점 틱 번호 (min hold 체크용)
 
 
 @dataclass
@@ -117,12 +118,14 @@ class ExitManager:
         expiry_minutes: int = 3,
         fee_multiplier: float = TAKER_FEE_MULTIPLIER,
         match_duration: int = 90,
+        min_hold_ticks: int = 50,
     ):
         self.exit_threshold = exit_threshold
         self.entry_threshold = entry_threshold
         self.expiry_minutes = expiry_minutes
         self.fee_multiplier = fee_multiplier
         self.match_duration = match_duration
+        self.min_hold_ticks = min_hold_ticks  # 최소 보유 틱 (~150초 @ 3초/틱)
 
     # ─── 수수료 계산 ─────────────────────────────
 
@@ -261,6 +264,7 @@ class ExitManager:
         minute: int = 0,
         engine_phase: EnginePhase = EnginePhase.FIRST_HALF,
         z: float = 1.645,
+        current_tick: int = 0,
     ) -> ExitDecision:
         """
         단일 포지션 청산 여부 판정.
@@ -269,6 +273,12 @@ class ExitManager:
         (역전이 가장 긴급)
         """
         decision = ExitDecision(ticker=pos.ticker)
+
+        # ── 최소 보유 시간 체크 ────────────────
+        ticks_held = current_tick - pos.entry_tick
+        if ticks_held < self.min_hold_ticks and engine_phase != EnginePhase.FINISHED:
+            decision.trigger = f"min_hold({ticks_held}/{self.min_hold_ticks})"
+            return decision  # HOLD
 
         # 보수적 확률
         p_cons = max(0.001, min(0.999, p_true - z * sigma_mc))
@@ -337,6 +347,7 @@ class ExitManager:
         engine_phase: EnginePhase = EnginePhase.FIRST_HALF,
         minute: int = 0,
         z: float = 1.645,
+        current_tick: int = 0,
     ) -> List[ExitDecision]:
         """
         모든 보유 포지션 일괄 평가.
@@ -347,6 +358,7 @@ class ExitManager:
             engine_phase: 현재 엔진 상태
             minute:      현재 경기 시간 (분)
             z:           보수성 계수
+            current_tick: 현재 틱 번호
 
         Returns:
             ExitDecision 목록
@@ -363,6 +375,7 @@ class ExitManager:
                 minute=minute,
                 engine_phase=engine_phase,
                 z=z,
+                current_tick=current_tick,
             )
             decisions.append(dec)
         return decisions

@@ -193,6 +193,9 @@ def test_router_exit_trigger():
     router.on_tick(snap1, make_orderbooks(), SAMPLE_TICKERS, "M1")
     assert len(router.engine.positions) > 0
 
+    # min_hold_ticks 건너뛰기 (테스트용)
+    router._tick_count = 200
+
     # 다음 틱: 모델 확률 급락 → edge 소멸/역전
     snap2 = MockTickSnapshot(
         tick=2, minute=31,
